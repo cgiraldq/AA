@@ -1,0 +1,9 @@
+a:5:{i:0;s:45:"Unable to read response, or response is empty";i:1;s:1056:"#0 /var/www/clients/client36/web48/web/lib/Varien/Http/Client.php(61): Zend_Http_Client->request('GET')
+#1 /var/www/clients/client36/web48/web/app/code/core/Mage/Adminhtml/controllers/DashboardController.php(100): Varien_Http_Client->request('GET')
+#2 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_DashboardController->tunnelAction()
+#3 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('tunnel')
+#4 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /var/www/clients/client36/web48/web/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /var/www/clients/client36/web48/web/index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:568:"/index.php/admin/admin/dashboard/tunnel/key/b4232fd9dfa6a3f2a0e0d3fc4ca78387/?ga=eyJjaHQiOiJsYyIsImNoZiI6ImJnLHMsZjRmNGY0fGMsbGcsOTAsZmZmZmZmLDAuMSxlZGVkZWQsMCIsImNobSI6IkIsZjRkNGIyLDAsMCwwIiwiY2hjbyI6ImRiNDgxNCIsImNoZCI6ImU6QUE0OEFBc1FwWGdqT2dBQUFBQUFBQUFBQUFBQUFBY0hlR0dxZ0pBQU84QUFDUEdCIiwiY2h4dCI6IngseSIsImNoeGwiOiIwOnx8fDIwOjAwfHx8MjM6MDB8fHwyOjAwfHx8NTowMHx8fDg6MDB8fHwxMTowMHx8fDE0OjAwfHx8MTc6MDB8MTp8MHwxMDAwMDB8MjAwMDAwfDMwMDAwMHw0MDAwMDB8NTAwMDAwIiwiY2hzIjoiNTg3eDMwMCIsImNoZyI6IjQuMzQ3ODI2MDg2OTU2NSwyMCwxLDAifQ%253D%253D&h=a51771d5da9a79ea12a9c711e5f214fb";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:5:"admin";}

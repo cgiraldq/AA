@@ -1,0 +1,6 @@
+a:4:{i:0;s:0:"";i:1;s:581:"#0 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(861): Mage_Core_Model_App->throwStoreException()
+#1 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(502): Mage_Core_Model_App->getStore()
+#2 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(285): Mage_Core_Model_App->_initCurrentStore('default', 'store')
+#3 /var/www/clients/client36/web48/web/app/Mage.php(616): Mage_Core_Model_App->init('default', 'store', Array)
+#4 /var/www/clients/client36/web48/web/install.php(129): Mage::app('default')
+#5 {main}";s:3:"url";s:18:"//install.php?derr";s:11:"script_name";s:12:"/install.php";}

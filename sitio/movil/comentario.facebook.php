@@ -1,0 +1,1 @@
+<div class="fb-comments" data-href="http://www.colemancolombia.com/<?echo $rutbase.$pagina?>?id=<?echo $_REQUEST['id']?>&idrelacion=<?echo $_REQUEST['idrelacion']?>" data-width="100%" data-numposts="5" data-colorscheme="light"></div>

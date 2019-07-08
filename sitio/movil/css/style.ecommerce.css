@@ -1,0 +1,643 @@
+
+/* CATEGORIAS E-COMMERCE */
+	.ecommece_categorias{
+		width: 100%;
+		*display: inline-block;
+		display: inline-block;
+	}
+
+	.ecommece_categorias ul
+
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.ecommece_categorias ul li /*Bloque de cada producto*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 49.4%;
+		margin: 0;
+		position: relative;
+	}
+
+	.ecommece_categorias ul li div/*Bloque con titulos*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		position: absolute;
+		bottom: 5px;
+		left: 0;
+		padding: 2%;
+		background-color:rgba(233,175,153,0.5);
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommece_categorias ul li div:focus
+
+	{
+		background: #777;
+	}
+
+	.ecommece_categorias ul li div h2
+
+	{
+		color: #fff;
+		text-align: center;
+		margin:0;
+		font-size: 1em;
+	}
+
+/* CATEGORIAS E-COMMERCE */
+
+/* SUBCATEGORIAS E-COMMERCE */
+	.ecommerce_subcategorias
+
+	{
+		width: 100%;
+		*display: inline-block;
+		display: inline-block;
+	}
+
+	.ecommerce_subcategorias ul
+
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.ecommerce_subcategorias li /*Bloque de cada producto*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		margin: 0 0 2% 0;
+		position: relative;
+	}
+
+	.ecommerce_subcategorias div/*Bloque con titulos*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		position: relative;
+		padding: 2%;
+		background: #E9A598;
+		/* Border redondeado */
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+		/* Border redondeado */
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_subcategorias div:focus
+
+	{
+		background: #777;
+	}
+
+	.ecommerce_subcategorias h2
+
+	{
+		color: #fff;
+		text-align: center;
+		margin:0;
+	}
+
+/* SUBCATEGORIAS E-COMMERCE */
+
+/* -------------------------------------------------LISTADO DE PRODUCTOS -------------------------------------------------*/
+
+	.ecommerce_productos_lista ul
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: left;
+	}
+
+	.ecommerce_productos_lista li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 49.4%;
+		margin: 0 0 1% 0;
+		text-align: center;
+
+	}
+
+	.ecommerce_productos_lista .info_prod
+	{
+		text-align: center;
+		padding: 1%;
+		border-bottom: 1px solid #ddd;
+		background: #fff;
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_lista .oft_pro p
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width:40px;
+		height: 40px;
+		opacity: 0.8;
+		background: #4BB8D4 ;
+		border-radius: 100%;
+		padding: 10px 0;
+		color: #fff;
+		font-size: 0.8em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_lista .info_prod .precio1 /*PRECIO PUBLICO*/
+
+	{
+		text-align: center;
+		color: #EE1C25;
+		font-size: 1.2em;
+	}
+
+	.ecommerce_productos_lista .info_prod .precio2 /*PRECIO DESCUENTO*/
+
+	{
+		text-align: center;
+		text-decoration:line-through;
+		color: #666;
+		font-size: 1em;
+	}
+
+	.ecommerce_productos_lista .info_prod .p_inter /*IMPORTADO*/
+
+	{
+		text-align: center;
+		color: #19697D;
+		font-size: 12px;
+		font-weight: 700;
+	}
+
+	.ecommerce_productos_lista .info_prod .nodisponible /* NO DISPONIBLE*/
+
+	{
+		text-align: center;
+		color: #E33326;
+		font-size: 0.8em;
+		font-weight: 100;
+	}
+
+	.ecommerce_productos_lista .info_prod h2 /*NOMBRE*/
+
+	{
+		text-align: center;
+		color: #999;
+		font-size: 1em;
+		margin: 3px 0;
+		line-height: 16px;
+	}
+
+	.ecommerce_productos_lista .info_prod h3 /*REFERENCIA*/
+
+	{
+		text-align: center;
+		color: #888888;
+		font-size: 0.8em;
+		font-weight: 100;
+	}
+
+
+	.cont_criterios{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-align: center !important;
+	}
+
+	.cont_criterios li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		margin: 0 0 1px 0;
+		width: auto;
+	}
+
+	.cont_criterios li img ,.cont_criterios li p{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		margin: 0;
+		color:#777;
+		font-size: 0.75em;
+	}
+
+	.cont_criterios li img{
+		margin: 0;
+		max-width: 20px;
+	}
+
+
+/* ----------------------------------------- LISTADO DE PRODUCTOS ----------------------------------------- */
+
+/* ------------------------------------------- PRODUCTO DETALLE ------------------------------------------- */
+
+	.cont_prod_detalle
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		position: relative;
+
+	}
+
+	.cont_prod_detalle form .cont_izq
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 100%;
+		text-align: left;
+		margin:0 0 2% 0 ;
+
+	}
+
+	.cont_prod_detalle form .cont_izq ul
+
+	{
+		margin: 0 0 5px 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.cont_prod_detalle form .cont_izq ul li
+
+	{
+		position: relative;
+		cursor: pointer;
+	}
+
+	.cont_prod_detalle form .cont_info
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 100%;
+		margin: 0;
+		padding: 2%;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_prod_detalle .cont_info h1/*NOMBRE*/
+
+	{
+		margin: 0;
+	}
+
+	.cont_prod_detalle .cont_info h3/*REFERENCIA*/
+
+	{
+		text-align: left;
+		color: #888888;
+		font-size: 13px;
+		font-weight: 900;
+	}
+
+	.cont_prod_detalle .cont_info .cont_porcen p /* PORCENTAJE DE DESCUENTO*/
+
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width:60px;
+		height: 60px;
+		background: #4BB8D4 ;
+		border-radius: 100%;
+		padding: 20px 10px;
+		color: #fff;
+		font-size: 1.1em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_prod_detalle .cont_info h5/*HOY*/
+
+	{
+		text-align: left;
+		color: #4BB8D4;
+		font-size: 20px;
+		font-weight: 100;
+	}
+
+	.cont_prod_detalle .cont_info .precio1 /*PRECIO PUBLICO*/
+
+	{
+		text-align: left;
+		color: #AAA;
+		font-size: 2.0em;
+		margin: 5px 0 0 0;
+		line-height: 28px;
+		font-weight: 100;
+	}
+
+	.cont_prod_detalle .cont_info .ahorro span /* VALOR AHORRADO */
+
+	{
+		color:#E23030 ;
+	}
+
+	.cont_prod_detalle .cont_info .despricion /*DESCRIPCION*/
+
+	{
+		margin: 10px 0;
+	}
+
+	.cont_prod_detalle .cont_info .disponible /*DISPONIBLE*/
+
+	{
+		color: #2DB200;
+		vertical-align: top;
+		font-size: 13px;
+	}
+	.cont_prod_detalle .cont_info .disponible img/*DISPONIBLE*/
+
+	{
+		margin:  0 5px 0 0;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .nodisponible /* NO DISPONIBLE*/
+	{
+		color: #E23030 ;
+		padding: 0 ;
+		margin: 0;
+		text-align: left;
+		vertical-align: top;
+		font-size: 13px;
+	}
+
+	.cont_prod_detalle .cont_info .nodisponible img/* NO DISPONIBLE*/
+
+	{
+		margin:  0 5px 0 0;
+	}
+
+	.cont_prod_detalle .cont_info .p_inter  /*IMPORTADO*/
+	{
+		text-align: left;
+		color: #19697D;
+		font-size: 13px;
+		margin: 5px 0;
+		font-weight: 700;
+	}
+
+
+	.cont_prod_detalle .cont_info .tienpo_entrega /*Tiempo de Entrega*/
+	{
+		text-align: left;
+		vertical-align: top;
+		color: #777;
+		font-size: 0.8em;
+		margin: 5px 0;
+	}
+
+	.cont_prod_detalle .cont_info .tienpo_entrega img /* Tiempo de Entrega*/
+
+	{
+		margin:  0 5px 0 0;
+		vertical-align: middle;
+	}
+
+	/* ----------------------CONTENEDOR DE TALLAS EN EL DETALLE -------------------------------- */
+
+	.cont_prod_detalle .cont_info .cont_tallas
+
+	{
+		padding: 0;
+		margin: 5px 0;
+		list-style: none;
+		text-align: left;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		padding: 0 5px;
+		background: #eee;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas p
+
+	{
+		color: #3898AA;
+	}
+
+	/* -------------------- CONTENEDOR DE TALLAS EN EL DETALLE ---------------------------------*/
+
+	/* ----------------------CONTENEDOR DE COLORES EN EL DETALLE -------------------------------- */
+
+	.cont_prod_detalle .cont_info .cont_colores
+
+	{
+		padding: 0;
+		margin: 5px 0 ;
+		list-style: none;
+		text-align: left;
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width:20px ;
+		height: 20px;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		background: #666;
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores p
+
+	{
+		color: #3898AA;
+	}
+
+	/* -------------------- CONTENEDOR DE COLORES EN EL DETALLE ---------------------------------*/
+
+/* ------------------------------------------- FIN PRODUCTO DETALLE ------------------------------------------- */
+
+	/* Contenedor de botones comprar */
+
+		.btn_comprar
+
+		{
+			padding: 0;
+			margin: 10px 0 0 0;
+			list-style: none;
+		}
+
+
+		.btn_comprar li
+
+		{
+			display: inline-block;
+			*display: inline-block;
+			width: 100%;
+			vertical-align: top;
+		}
+
+		.btn_comprar .btn_carrito  /*Botón comprar*/
+
+		{
+	background: #E9A598;
+    padding: 3.5% 0%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    width: 52%;
+    text-align: center;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+		}
+
+		.btn_comprar .btn_carrito:focus
+
+		{
+			background: #E9A598;		}
+
+	/* Contenedor de botones comprar */
+
+	.btn_ecommerce_detalle
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.cont_tab_ecommerce_detalle{
+		padding:2%;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		margin: 0 0 2% 0;
+		border-bottom: 1px solid #eee;
+	}
+
+	.cont_tab_ecommerce_detalle h3{
+		color: #3898AA;
+	}
+	.cont_tab_ecommerce_detalle span{
+		color: #000;
+	}
+
+	.cont_frm_calcular{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+	}
+
+	/* OTROS PRODUCTOS */
+
+	.ecommerce_otros_productos{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.ecommerce_otros_productos li{
+		padding: 0;
+		margin: 0 0 2% 0;
+		padding: 0 0 2% 0;
+		border-bottom: 1px solid #eee;
+	}
+
+
+	.ecommerce_otros_productos img{
+		float: left;
+		max-width: 10%;
+		margin: 0 2% 0 0;
+	}
+
+	/* OTROS PRODUCTOS */

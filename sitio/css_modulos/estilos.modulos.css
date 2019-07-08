@@ -1,0 +1,398 @@
+﻿.txt_remateinformer {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.link_cf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFCC00;
+	font-size: 11px;
+	line-height: 16px;
+	text-decoration: none;
+}
+.link_cf:hover {
+	color: #F8F8F8;
+}
+
+.numeracion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border: 0px none #B9E143;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.numeracion:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #016FA4;
+	text-decoration: underline;
+	padding-top: 2px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	border: 0px none #B9E143;
+	text-align: center;
+	vertical-align: middle;
+}
+.txt_usuario {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	font-size: 11px;
+	text-decoration: none;
+}
+.forma_informer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #218CAE;
+	font-size: 13px;
+	text-decoration: none;
+	border: 1px solid #DDDDDD;
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+
+.forma2_informer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #666666;
+	font-size: 11px;
+	text-decoration: none;
+	border: 1px solid #DDDDDD;
+	background-color: #FFFFFF;
+	padding: 3px;
+}
+
+.texto_parrafo2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #000000;
+	font-size: 11px;
+	line-height: 12px;
+}
+
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #999999;
+	font-size: 10px;
+}
+
+.subtitulo {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+	font-size: 14px;
+}
+
+.campo_numeros
+
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000;
+	border: 0;
+	text-decoration: none;
+	background-color: #ddd;
+	padding: 2px 5px;
+	margin-right: 10px;
+}
+
+.botones{
+
+
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 3px 10px 3px;
+	padding: 10px 15px 10px 15px;
+	color: #777;
+	border: 1px solid #eee;
+	font-size: 15px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 3px;
+
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.botones:hover{
+	text-decoration: underline;
+}
+
+.link_sup {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 16px;
+	text-decoration: none;
+}
+.link_sup:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+
+
+.titulo_blanco {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.titulo_negro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.txt_subtitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.texto_normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	font-size: 11px;
+}
+.texto_normal1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+	font-size: 15px;
+	padding-left: 7px;
+	text-decoration: none;
+}
+.texto_normal1:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #666;
+	font-size: 15px;
+	padding-left: 7px;
+	text-decoration: underline;
+}
+
+.texto_normal2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333;
+	font-size: 11px;
+}
+.texto_link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #F27022;
+	font-size: 12px;
+	text-decoration: none;
+}
+.texto_link:hover {
+	color: #F27022;
+	text-decoration: underline;
+}
+.texto_link1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #00A4F2;
+	font-size: 25px;
+	text-decoration: none;
+}
+.texto_link1:hover {
+	color:#007BB7;
+	text-decoration: underline;
+}
+/* - TOOL TIP --*/
+#tooltip {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	border: 1px solid #000000;
+	background:#FFFFE1;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 1px;
+	padding-right: 1px;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 7px;
+	max-width: 20em;
+	line-height: 12px;
+}
+#tooltip h3 {
+	font-size: 1.1em;
+    margin: 0;
+	padding: 0 3px;
+	text-align: left !important;
+}
+#tooltip p {
+	font-size: 0.95em;
+	margin: 5px 0 0 5px;
+	text-align: left;
+}
+
+.divcolor{
+	width:19px;
+	height:19px;
+	float:left;
+	border:1px black solid;
+}
+
+.divcolor2{
+	width:15px;
+	height:10px;
+	float:left;
+	border:1px black solid;
+}
+/* estilos del calendario*/
+
+/*estilos 11 de febrero*/
+
+.textomes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: normal;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+.texto_dia {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding: 2px;
+}
+
+.texto_dianumero1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: underline;
+}
+
+.texto_dianumero1:hover{
+	color: #999999;
+	text-decoration:none;
+}
+
+
+
+.texto_dianumero2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #99CC00;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+}
+
+/*.texto_dianumero2:hover {
+
+	background-color: #DDE63E;
+	}*/
+
+.texto_dianumero3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #4383A5;
+	padding-top: 4px;
+	padding-right: 6px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+}
+.texto_dianumero3:hover {
+
+	background-color: #7CC2E4;
+
+}
+
+.texto_dianumero4{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.cerrar{
+	font-size: 11px;
+	color: #EF4216;
+	text-decoration: underline;
+}
+
+p.btn_papelera
+
+{
+	padding: 4px 10px;
+	font-size: 14px;
+	cursor: pointer;
+	vertical-align: middle;
+	border: 1px solid #e03410;
+	color: #FFF !important;
+	border-radius: 3px;
+	background: #f14122;
+	background: -moz-linear-gradient(top, #f14122 0%, #f02e26 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f14122), color-stop(100%,#f02e26));
+	background: -webkit-linear-gradient(top, #f14122 0%,#f02e26 100%);
+	background: -o-linear-gradient(top, #f14122 0%,#f02e26 100%);
+	background: -ms-linear-gradient(top, #f14122 0%,#f02e26 100%);
+	background: linear-gradient(to bottom, #f14122 0%,#f02e26 100%);
+}
+
+p.btn_papelera img
+
+{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+

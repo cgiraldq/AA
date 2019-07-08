@@ -1,0 +1,36 @@
+<div class="block block-layered-nav block-layered-nav--no-filters">
+    <!--div class="block-title">
+        <strong><span></span></strong>
+    </div-->
+    <div class="block-content toggle-content open">
+        <!--p class="block-subtitle block-subtitle--filter"></p-->
+        <dl id="narrow-by-list2">
+            <dt>Categoría</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="https://www.adrianaarango.com/store/nuevo-magia-terrenal/ropa-de-dormir/pantalon-largo.html?___SID=U">
+                            Pantalón Largo                            <span class="count">(10)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/nuevo-magia-terrenal/ropa-de-dormir/pantalon-corto.html?___SID=U">
+                            Pantalón Corto                            <span class="count">(9)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/nuevo-magia-terrenal/ropa-de-dormir/capri.html?___SID=U">
+                            Capri                            <span class="count">(1)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/nuevo-magia-terrenal/ropa-de-dormir/batola.html?___SID=U">
+                            Batola                            <span class="count">(4)</span>
+                        </a>
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+<div class="widget widget-static-block"><form id="contactForm" class="scaffold-form11" method="post"><input id="zona" type="hidden" value="Adriana Arango en casa" name="zona" /> <input id="email_zona" type="hidden" value="ventasonline@adrianaarango.com" name="email_zona" />
+<style><!--
+input::placeholder{color: #000 !Important;}color: #000 !important;
+--></style>
+<div class="fieldset11">
+<h2 class="legend11">Informaci&oacute;n de contacto</h2>
+<ul class="form-list11">
+<li class="fields11">
+<div class="field11"><label class="required11" for="name"></label>
+<div class="input-box11"><input id="nombre" class="input-text11 required-entry11 landing" title="Nombres" type="text" placeholder="*Nombres:" name="nombre" />&nbsp;<input id="apellido" class="input-text11 required-entry11 landing" title="Apellidos" type="text" placeholder="*Apellidos:" name="apellido" /></div>
+<div class="input-box11"><input id="cedula" class="input-text11 required-entry11 landing" title="Cedula" type="text" placeholder="*C&eacute;dula:" name="cedula" /> <input id="celular" class="input-text11 required-entry11 landing" title="Celular" type="text" placeholder="*Celular:" name="celular" /></div>
+</div>
+<div class="field11"><label class="required11" for="email"></label>
+<div class="input-box11"><input id="email" class="input-text11 required-entry11 validate-email landing" spellcheck="false" title="email" type="email" placeholder="*Correo electr&oacute;nico:" name="email" /><select id="ciudad" class="bundle-option-28 required-entry bundle-option-select change-container-classname" spellcheck="false" style="width: 48%; margin-left: 5px; color: #000;" title="Ciudad" name="ciudad">
+<option value="">*Ciudad:</option>
+<option value="Medellin">Medellin</option>
+</select></div>
+</div>
+<div class="input-box11"><input id="direccion" class="input-text11 required-entry11 landing" spellcheck="false" title="Direcci&oacute;n donde recebiras tu caja" type="text" placeholder="*Direcci&oacute;n donde quieres recibir tu caja:" name="direccion" /> <input id="barrio" class="input-text11 required-entry11 landing" spellcheck="false" title="Barrio" type="text" placeholder="*Barrio:" name="barrio" /></div>
+</li>
+<li>
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Fecha de Nacimiento</span> <input id="day" class="input-text11 validate-custom" style="width: 50px; margin: 0  30px;" title="D&iacute;a Cumplea&ntilde;os" type="text" placeholder="*D&iacute;a:" value="" name="day" /><input id="month" class="input-text11 validate-custom" style="width: 50px; margin-right: 30px;" title="Mes Cumplea&ntilde;os" type="text" placeholder="*Mes:" value="" name="month" /><input id="year" class="input-text11 validate-custom" style="width: 120px; margin-right: 30px;" title="A&ntilde;o de Nacimiento" type="text" autocomplete="off" placeholder="*A&ntilde;o:" value="" name="year" /></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Comp&aacute;rtenos una referencia personal:</span></div>
+</li>
+<li class="fields11"></li>
+<li class="fields11">
+<div class="input-box11"><input id="ref_personal_nom_apell" class="input-text11 required-entry11 landing" spellcheck="false" title="Referencia personal Nombres y Apellidos" type="text" placeholder="*Nombres y Apellidos:" name="ref_personal_nom_apell" />&nbsp; &nbsp; <input id="ref_personal_cel" class="input-text11 required-entry11 landing" spellcheck="false" title="Referencia Personal Celular" type="text" placeholder="*Celular:" name="ref_personal_cel" /></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left; margin-left: 10px; width: 98%;"><input id="ref_parentesco" class="input-text11 required-entry11" spellcheck="false" title="Parentesco" type="text" placeholder="*Parentesco" name="ref_parentesco" /></div>
+</li>
+<li class="fields11"></li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Las siguientes preguntas nos ayudaran a identificar tus gustos y as&iacute; poder enviarte dise&ntilde;os a tu medida, que estamos seguros llenaran todas tus expectativas. Puedes seleccionar una o m&aacute;s opciones de respuesta. </span></div>
+</li>
+<li class="fields11"></li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Escoge las categor&iacute;as de prendas de tu preferencia, puedes seleccionar una o m&aacute;s.</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><input id="ropa_dormir" class="radio categoria" spellcheck="false" type="checkbox" value="Ropa de Dormir" name="categoria[]" /><label class="label_landing">&nbsp;Ropa de dormir</label><br /><input id="prend_intimas" class="radio  categoria " spellcheck="false" type="checkbox" value="Prendas Intimas" name="categoria[]" /><label class="label_landing">&nbsp;Prendas &iacute;ntimas</label>&nbsp;<br /><input id="ropa_deportiva" class="radio   categoria" spellcheck="false" type="checkbox" value="Ropa Deportiva" name="categoria[]" /><label class="label_landing">&nbsp;Ropa deportiva</label>&nbsp;<br /><input id="fragancias" class="radio  categoria" spellcheck="false" type="checkbox" value="Fragancias" name="categoria[]" /><label class="label_landing">&nbsp;Fragancias</label></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iquest;Cu&aacute;l es tu talla?</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;">
+<table border="0">
+<tbody>
+<tr>
+<td><input id="S" class="radio talla" spellcheck="false" type="checkbox" value="S" name="talla[]" /><label class="label_landing">&nbsp;S</label></td>
+<td><input id="M" class="radio talla" spellcheck="false" type="checkbox" value="M" name="talla[]" /><label class="label_landing">&nbsp;M</label></td>
+<td><input id="L" class="radio talla" spellcheck="false" type="checkbox" value="L" name="talla[]" /><label class="label_landing">&nbsp;L</label></td>
+<td><input id="XL" class="radio talla" spellcheck="false" type="checkbox" value="XL" name="talla[]" /><label class="label_landing">&nbsp;XL</label></td>
+</tr>
+<tr>
+<td><input id="s2" class="radio talla" spellcheck="false" type="checkbox" value="32" name="talla[]" /><label class="label_landing">&nbsp;32</label></td>
+<td><input id="m2" class="radio talla" spellcheck="false" type="checkbox" value="34" name="talla[]" /><label class="label_landing">&nbsp;34</label></td>
+<td><input id="l2" class="radio talla" spellcheck="false" type="checkbox" value="36" name="talla[]" /><label class="label_landing">&nbsp;36</label></td>
+<td><input id="sxl2" class="radio talla" spellcheck="false" type="checkbox" value="38" name="talla[]" /><label class="label_landing">&nbsp;38</label></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iquest;Cu&aacute;les son tus colores favoritos?</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><input id="colores" class="input-text11 required-entry11" spellcheck="false" title="Colores Favoritos" type="text" placeholder="*Coloca aqu&iacute; tus colores favoritos" name="colores" /></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iquest;Cu&aacute;l es tu estilo favorito en Ropa de Dormir?</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;">
+<table border="0">
+<tbody>
+<tr>
+<td><input id="pantalon_larg" class="radio dormir" spellcheck="false" type="checkbox" value="Pantal&oacute;n Largo" name="dormir[]" /><label class="label_landing">&nbsp;Pantal&oacute;n largo</label></td>
+<td><input id="pantalon_capr" class="radio dormir" spellcheck="false" type="checkbox" value="Pantal&oacute;n Capri" name="dormir[]" /><label class="label_landing">&nbsp;Pantal&oacute;n capri</label></td>
+<td><input id="romanticas" class="radio dormir" spellcheck="false" type="checkbox" value="Rom&aacute;nticas" name="dormir[]" /><label class="label_landing">&nbsp;Rom&aacute;nticas</label></td>
+</tr>
+<tr>
+<td><input id="pantalon_cort" class="radio dormir" spellcheck="false" type="checkbox" value="Pantal&oacute;n Corto" name="dormir[]" /><label class="label_landing">&nbsp;Pantal&oacute;n corto</label></td>
+<td><input id="batolas" class="radio dormir" spellcheck="false" type="checkbox" value="Batolas" name="dormir[]" /><label class="label_landing">&nbsp;Batolas</label></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iquest;Cu&aacute;l es tu estilo favorito en Prendas &Iacute;ntimas?</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;">
+<table border="0">
+<tbody>
+<tr>
+<td><input id="basicos" class="radio intimas" spellcheck="false" type="checkbox" value="B&aacute;sicos" name="intima[]" /><label class="label_landing">&nbsp;B&aacute;sicos</label></td>
+<td><input id="prend_aros" class="radio intimas" spellcheck="false" type="checkbox" value="Prenda con Aros" name="intima[]" /><label class="label_landing">&nbsp;Prenda con aros</label></td>
+<td><input id="prend_estruc" class="radio intimas" spellcheck="false" type="checkbox" value="Prendas con Estructura" name="intima[]" /><label class="label_landing">&nbsp;Prendas con estructura</label></td>
+</tr>
+<tr>
+<td><input id="romanticos" class="radio intimas" spellcheck="false" type="checkbox" value="Rom&aacute;nticos" name="intima[]" /><label class="label_landing">&nbsp;Rom&aacute;nticos</label></td>
+<td><input id="prend_sin_aros" class="radio intimas" spellcheck="false" type="checkbox" value="Prendas sin Aros" name="intima[]" /><label class="label_landing">&nbsp;Prendas sin aros</label></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iquest;Cu&aacute;l es tu estilo favorito en Prendas deportivas?</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;">
+<table border="0">
+<tbody>
+<tr>
+<td><input id="tops" class="radio intimas2" spellcheck="false" type="checkbox" value="Tops" name="intima2[]" /><label class="label_landing">&nbsp;Tops</label></td>
+<td><input id="blusas" class="radio intimas2" spellcheck="false" type="checkbox" value="Blusas" name="intima2[]" /><label class="label_landing">&nbsp;Blusas</label></td>
+<td><input id="chaquetas" class="radio intimas2" spellcheck="false" type="checkbox" value="Chaquetas" name="intima2[]" /><label class="label_landing">&nbsp;Chaquetas</label></td>
+</tr>
+<tr>
+<td><input id="leggins" class="radio intimas2" spellcheck="false" type="checkbox" value="Leggins" name="intima2[]" /><label class="label_landing">&nbsp;Leggins</label></td>
+<td><input id="capri" class="radio intimas2" spellcheck="false" type="checkbox" value="Capri" name="intima2[]" /><label class="label_landing">&nbsp;Capri</label></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Si deseas recibir una prenda en especial, por favor h&aacute;znoslo saber colocando aqu&iacute; la referencia.</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><input id="ref" class="input-text11 required-entry11" spellcheck="false" title="Referencia" type="text" placeholder="Coloca aqu&iacute; el n&uacute;mero de referencia" name="ref" /></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Selecciona el empaque de tu prenda</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><input id="normal" class="radio empaque" spellcheck="false" type="radio" value="Normal" name="empaque" /><label class="label_landing">&nbsp;Normal</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="regalo" class="radio empaque" spellcheck="false" type="radio" value="Regalo" name="empaque" /><label class="label_landing">&nbsp;Regalo</label></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Cu&eacute;ntanos en que fecha especial y con que motivo te gustar&iacute;a que te enviaramos Adriana Arango en Casa.</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><input id="fecha" class="input-text11 required-entry11" spellcheck="false" title="Fecha y Motivo" type="text" placeholder="Fecha y Motivo" name="fecha_motivo" /></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">&iexcl;Esto es todo! Muy pronto una de nuestras asesoras se contactar&aacute; contigo para coordinar la entrega de la caja de ADRIANA ARANGO EN CASA.</span></div>
+</li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Te recordamos que el envi&oacute; de esta no tiene ning&uacute;n costo en la ciudad de Medellin, y que despu&eacute;s de recibida tienes 2 d&iacute;as h&aacute;biles para probarte las prendas y escoger con que dise&ntilde;os te quieres quedar; despu&eacute;s de esto enviaremos a nuestro personal a recogerla y nos pondremos en contacto contigo para informarte el valor a pagar, el cual ser&aacute; en m&eacute;todo no presencial a trav&eacute;s de nuestra pasarela de pagos o transferencia bancaria.</span></div>
+</li>
+<li class="fields11"></li>
+<li class="fields11">
+<div class="input-box11" style="text-align: left;"><span style="font-size: small;">Cualquier duda durante el proceso puedes escribirnos al correo info@adrianaarango.com o al WhatsApp 318 3353761.</span></div>
+</li>
+<li class="fields11"></li>
+<li class="fields11">
+<div class="input-box11" style="text-align: center;"><input id="enviar_landing" class="button11" style="width: 25%; font-size: 13px;" type="buttom" readonly="readonly" value="Enviar" /></div>
+</li>
+</ul>
+</div>
+</form></div>

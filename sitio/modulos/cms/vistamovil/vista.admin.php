@@ -1,0 +1,99 @@
+<?
+/*
+| ----------------------------------------------------------------- |
+CF-informer
+Desarrollado por Comprandofacil
+http://www.comprandofacil.com/
+Copyright (c) 2000 - 2009
+Medellin - Colombia
+=====================================================================
+  Autores:
+  Juan Fernando Fernández <consultorweb@comprandofacil.com> - Proyectos
+  Juan Felipe Sánchez <graficoweb@comprandofacil.com> - Diseño
+  José Fernando Peña <soporteweb@comprandofacil.com> - Mercadeo
+=====================================================================
+| ----------------------------------------------------------------- |
+*/
+// edicion de datos
+$rutx=1;
+if($rutx==1) $rutxx="../";
+include($rutxx."../../incluidos_modulos/modulos.globales.php");
+
+//$rc4 = new rc4crypt();
+$rr="default.php";
+$titulomodulo="listado de paginas para vista m&oacute;vil";
+$tablarelaciones=$prefix."  ";
+$tablaorigen=$prefix."tblpaginas";
+$rr="default.php";
+$idx=1;
+$tabla="tblpaginas";
+include($rutxx."../relaciones/relaciones.operaciones.vista.php");
+?>
+<html>
+    <?include($rutxx."../../incluidos_modulos/head.php");?>
+<body>
+
+  <? include($rutxx."../../incluidos_modulos/navegador.principal.php");
+
+
+  $sql="select a.dsm";
+$sql.=" from $tabla a ";
+$sql.=" where a.idactivo=1 and idvista=1";
+//echo $sql;
+
+$result = $db->Execute($sql);
+if (!$result->EOF) {
+$totalregistros=$result->RecordCount();
+	$rutamodulo="<a href='$rutxx../core/default.php' class='textlink' title='Principal'>Principal</a>  /  ";
+	$rutamodulo.="/<span class='text1'>$titulomodulo</span>";
+include($rutxx."../../incluidos_modulos/modulos.subencabezado.php");
+$dsm=$result->fields[0];
+
+?>
+<? include($rutxx."../../incluidos_modulos/encabezado.editar.php");?>
+
+
+<table align="center"  cellspacing="1" cellpadding="5" border="0" width=70% class="campos_ingreso">
+
+<form action="<? echo $pagina;?>?idx=<? echo $idx;?>" method=post name=u enctype="multipart/form-data">
+
+<tr valign=top bgcolor="#FFFFFF">
+<td colspan="2">
+<strong>RELACIONES.</strong> Asocie las p&aacute;ginas que se ver&aacute;n en la versi&oacute;n m&oacute;vil:<strong><br>
+<?
+$validar=" where idactivo=1";
+include($rutxx."../relaciones/default.vista.php");?>
+</td>
+</tr>
+
+
+
+
+<tr><td align="center" colspan="2">
+<?
+$forma="u";
+$param="id";
+include($rutxx."../../incluidos_modulos/botones.modificar.php");?>
+<input type="hidden" name="idx" value="<? echo $idx?>">
+
+</td></tr>
+</form>
+
+</table>
+<br>
+
+</td>
+</tr>
+</table>
+<?
+} // fin si
+$result->Close();
+?>
+<br>
+<?
+  include($rutxx."../../incluidos_modulos/navegador.principal.cerrar.php");
+
+include($rutxx."../../incluidos_modulos/modulos.remate.php");?>
+
+</body>
+</html>

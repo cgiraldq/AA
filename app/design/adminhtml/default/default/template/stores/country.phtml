@@ -1,0 +1,85 @@
+<?php 
+$id = $this->getRequest()->getParam('id');
+$ModelData = array();
+$ModelData['country']='';
+$ModelData['area']='';
+$Modelarea = array();
+$Modelarea[1]='';
+if($id)
+{
+	$ModelData = Mage::getModel('stores/stores')->load($id)->getData();
+	$Modelarea = explode(',',$ModelData['area']);
+}
+$jsUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_JS).'stores/jquery-1.7.1.min.js';
+?>
+<script type="text/javascript" src="<?php echo $jsUrl?>"></script>
+<tr>
+	<td class="label">
+		<label for="country"><?php echo $this->__('Country')?><span class="required"> *</span></label>	
+	</td>
+	<td class="value">
+		<select name='country' id='country' class="required-entry validate-select" onchange="changeRegionId(this.id);">
+					<option value=""><?php echo $this->__('-- Please select --')?></option>
+				<?php
+					$countryCollection = $this->countryCollection();//get Country collection
+					foreach($countryCollection as $country) {
+				?>
+						<option value="<?php echo $country['value'] ?>" <?php if($ModelData['country']==$country['value']):?>selected="selected"<?php endif; ?>><?php echo $country['label'] ?></option>
+				<?php
+					}
+				?>
+		</select>
+	</td>
+</tr>
+<tr>
+	<td class="label">
+		<label for="country"><?php echo $this->__('State/Region')?><span class="required"> *</span></label>	
+	</td>
+	<td class="value" id="input-box-region">
+
+		<?php if($ModelData['country']):?>
+				<?php $countryId = $ModelData['country'];?>
+		<?php else:?>
+				<?php $countryId = 'US';?>
+		<?php endif;?>
+		<?php $regionCollection=$this->stateCollection($countryId);//get state collection?>
+
+		<?php if(count($regionCollection)):?>
+			<select name='area' id='region1' class="required-entry validate-select" >
+				   <option value=""><?php echo $this->__('Please select region,state or province')?></option>
+				   <?php
+						foreach($regionCollection as $region) {
+				    		$regioncollect = Mage::getModel('directory/region')->load($region['region_id']);
+				    ?>
+				
+				    <option value="<?php echo $regioncollect->getDefaultName().','.$regioncollect->getRegionId(); ?>" <?php if($Modelarea[1]==$regioncollect->getRegionId()):?>selected="selected"<?php endif; ?>><?php echo $regioncollect->getDefaultName(); ?></option>
+				    <?php
+				}
+			    ?>
+			</select>
+		<?php else:?>
+			<input type="text" name="area" id="region2" value="<?php echo $ModelData['area']?>" title="<?php echo $this->__('address') ?>" class="input-text required-entry"/>
+		<?php endif;?>
+	</td>
+</tr>
+
+<!--Change State field-->
+<?php
+$Url=$this->getUrl('*/*/region', array('id' => $this->getRequest()->getParam('id')));
+$currentId = $id;
+?>
+<script type="text/javascript">
+
+var $j=jQuery.noConflict();
+$j('#country').live('change',function(){
+ $j('#loading-mask').show();
+ var id = $j(this).val();
+ var currentId = '<?php echo $currentId?>';
+ var Data = { 'currentId' : currentId, 'id' : id,'form_key':"<?php echo Mage::getSingleton('core/session')->getFormKey()?>"};
+ $j.ajax({type:"post",data:Data,url:"<?php echo $Url?>",success:function(data){
+	$j('#input-box-region').html(data);
+	$j('#loading-mask').hide();
+}});
+});
+</script>
+

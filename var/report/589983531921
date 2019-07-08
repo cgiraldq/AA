@@ -1,0 +1,8 @@
+a:5:{i:0;s:16:"Invalid form key";i:1;s:956:"#0 /var/www/clients/client36/web48/web/app/code/core/Mage/Checkout/controllers/CartController.php(641): Mage::throwException('Invalid form ke...')
+#1 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_CartController->ajaxUpdateAction()
+#2 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('ajaxUpdate')
+#3 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 /var/www/clients/client36/web48/web/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 /var/www/clients/client36/web48/web/index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:673:"/store/checkout/cart/ajaxUpdate/id/119341/uenc/aHR0cHM6Ly93d3cuYWRyaWFuYWFyYW5nby5jb20vc3RvcmUvY2hlY2tvdXQvY2FydC9hamF4RGVsZXRlL2lkLzExOTM0Ny91ZW5jL2FIUjBjSE02THk5M2QzY3VZV1J5YVdGdVlXRnlZVzVuYnk1amIyMHZjM1J2Y21VdlkyaGxZMnR2ZFhRdlkyRnlkQzloYW1GNFJHVnNaWFJsTDJsa0x6RXhPVE0wTlM5MVpXNWpMMkZJVWpCalNFMDJUSGs1TTJRelkzVlpWMUo1WVZkR2RWbFhSbmxaVnpWdVluazFhbUl5TUhaak0xSjJZMjFWZGxreWFHeFpNblIyWkZoUmRsa3lSbmxrUXpsb1lXMUdORkpIVm5OYVdGSnNUREpzYTB4NlJYaFBWRTB3VFhrNU1WcFhOV3BNTWtaSlZXcENhbE5GTURKVVNHczFUVEpSZWxrelZscFdNVW8xV1Zaa1IyUldiRmhTYm14YVZucFdkVmx1YXpGaGJVbDVUVWhhYWsweFNqSlpNakZXWkcxTmVWSnVUbUZWZWxaMldrVmplR014UVhwUlZHeE9aSGwzYzB4M0xDd3ZQMTlmWDFOSlJEMVYvP19fX1NJRD1V/?___SID=U";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:5:"store";}

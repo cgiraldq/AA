@@ -1,0 +1,80 @@
+﻿
+
+#canvas {
+	position:relative;
+}
+
+#canvas img {
+	cursor:crosshair;
+	z-index:0;
+	border:0px;
+	background:#AAAAAA;
+}
+
+/*toolbar styles*/
+#JPIE_toolbar{
+	background:#F0F0F0;
+}
+
+#JPIE_toolbar img {
+	border:0px;
+	margin:0px;
+}
+
+/*Status bar*/
+
+#statusBar {
+	background:#F0F0F0;
+	font-family:arial;
+	font-size:10pt;
+	color:#333333;
+	position:relative;
+	float:right;
+}
+
+.tabla{
+	width:100%;
+	height:500px;
+	background-color:#F0F0F0;
+	vertical-align:top;
+}
+
+#coordenadas {
+	visibility:hidden;
+	position:absolute;
+	background:yellow;
+	font:normal 10px/10px verdana;
+	color:black;
+	border:solid 1px black;
+	text-align:justify;
+	padding:5px 5px 5px 5px;
+}
+
+#slider-bg {
+    position: relative;
+    background:url(../../icons/bg-fader2.gif);
+    height:28px;
+    width:402px; 
+}
+
+#slider-thumb {
+    cursor:default;
+    position: absolute;
+    top: 4px;
+
+}
+
+
+#slider-brightness-bg {
+    position: relative;
+    background:url(../../icons/bg-fader2.gif);
+    height:28px;
+    width:402px; 
+}
+
+#slider-brightness-thumb {
+    cursor:default;
+    position: absolute;
+    top: 4px;
+
+}

@@ -1,0 +1,31 @@
+<div class="block block-layered-nav block-layered-nav--no-filters">
+    <!--div class="block-title">
+        <strong><span></span></strong>
+    </div-->
+    <div class="block-content toggle-content open">
+        <!--p class="block-subtitle block-subtitle--filter"></p-->
+        <dl id="narrow-by-list2">
+            <dt>Categoría</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="https://www.adrianaarango.com/store/sale/ropa-de-dormir.html?___SID=U">
+                            Ropa de Dormir                            <span class="count">(10)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/sale/deportivos.html?___SID=U">
+                            Deportivos                            <span class="count">(3)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/sale/intima.html?___SID=U">
+                            Intima                            <span class="count">(13)</span>
+                        </a>
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>

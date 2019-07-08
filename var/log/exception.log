@@ -1,0 +1,132 @@
+2017-05-24T20:50:32+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [MWHPR02CA0017.namprd02.prod.outlook.com]
+' in /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp_Auth_Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template_Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/includes/src/__default.php(14272): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18750): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18280): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/includes/src/__default.php(21176): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}
+2017-05-24T20:50:38+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [BN6PR01CA0055.prod.exchangelabs.com]
+' in /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp_Auth_Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template_Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/includes/src/__default.php(14272): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18750): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18280): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/includes/src/__default.php(21176): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}
+2017-05-24T20:50:44+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [MWHPR02CA0007.namprd02.prod.outlook.com]
+' in /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp_Auth_Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Protocol_Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail_Transport_Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/includes/src/Zend_Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/includes/src/Mage_Core_Model_Email_Template_Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/includes/src/Mage_Sales_Model_Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/includes/src/__default.php(14272): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18750): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/includes/src/__default.php(18280): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/includes/src/__default.php(21176): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}
+2017-05-24T20:55:25+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [DM5PR0101CA0028.prod.exchangelabs.com]
+' in /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp/Auth/Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template/Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}
+2017-05-24T20:55:31+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [BN6PR20CA0026.namprd20.prod.outlook.com]
+' in /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp/Auth/Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template/Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}
+2017-05-24T20:55:37+00:00 ERR (3): 
+exception 'Zend_Mail_Protocol_Exception' with message '5.7.4 Unrecognized authentication type [BN6PR20CA0037.namprd20.prod.outlook.com]
+' in /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Abstract.php:431
+Stack trace:
+#0 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp/Auth/Login.php(91): Zend_Mail_Protocol_Abstract->_expect(334)
+#1 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Protocol/Smtp.php(217): Zend_Mail_Protocol_Smtp_Auth_Login->auth()
+#2 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Smtp.php(200): Zend_Mail_Protocol_Smtp->helo('localhost')
+#3 /var/www/clients/client46/web68/web/store/lib/Zend/Mail/Transport/Abstract.php(348): Zend_Mail_Transport_Smtp->_sendMail()
+#4 /var/www/clients/client46/web68/web/store/lib/Zend/Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#5 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(467): Zend_Mail->send()
+#6 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template.php(524): Mage_Core_Model_Email_Template->send(Array, Array, Array)
+#7 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/Email/Template/Mailer.php(84): Mage_Core_Model_Email_Template->sendTransactional('4', 'sales', Array, Array, Array, '1')
+#8 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1355): Mage_Core_Model_Email_Template_Mailer->send()
+#9 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Sales/Model/Order.php(1369): Mage_Sales_Model_Order->queueNewOrderEmail(true)
+#10 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Adminhtml/controllers/Sales/OrderController.php(139): Mage_Sales_Model_Order->sendNewOrderEmail()
+#11 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Adminhtml_Sales_OrderController->emailAction()
+#12 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('email')
+#13 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/clients/client46/web68/web/store/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/clients/client46/web68/web/store/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/clients/client46/web68/web/store/index.php(83): Mage::run('', 'store')
+#17 {main}

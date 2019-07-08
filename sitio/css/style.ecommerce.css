@@ -1,0 +1,1844 @@
+.ecommerce_header
+
+{
+	background: #fff;
+	padding: 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+.ecommerce_header .carrito
+
+{
+	display: inline-block;
+	*display: inline-block;
+	vertical-align: middle;
+	width: 28%;
+}
+
+.ecommerce_header .carrito a
+
+{
+	color: #fff;
+	padding: 15px 15px 15px 45px;
+	background:url(../images/carrito.png) no-repeat;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.ecommerce_header .cont_ingreso
+
+{
+	display: inline-block;
+	*display: inline-block;
+	vertical-align: middle;
+	width: 65%;
+	margin: 0 0 0 8px;
+	text-align: center;
+}
+
+.ecommerce_header .cont_ingreso h3 /* Nombre de usuario*/
+
+{
+	text-align:center;
+	font-size: 0.8em;
+}
+
+.ecommerce_header .cont_ingreso p a  /* Links */
+
+{
+	color: #3898AA ;
+}
+
+.ecommerce_header .cont_ingreso p a:hover
+
+{
+	text-decoration: underline;
+}
+
+/* CONTENEDOR DE BOTONES - INGRESO CON REDES SOCIALES - */
+
+	.btns_redes
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+
+/* CONTENEDOR DE BOTONES - INGRESO CON REDES SOCIALES - */
+
+
+/* CATEGORIAS E-COMMERCE */
+	.ecommece_categorias
+
+	{
+		width: 100%;
+		*display: inline-block;
+		display: inline-block;
+		margin:  0 0 15px 0;
+	}
+
+	.ecommece_categorias ul
+
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.ecommece_categorias ul li /*Bloque de cada producto*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 24.15%;
+		margin: 0  5px 0 0;
+		position: relative;
+	}
+
+	.ecommece_categorias ul li:last-child
+	{
+		margin: 0;
+	}
+
+	.ecommece_categorias ul li img
+	{
+		display: inline-block;
+		max-width: 100%;
+		vertical-align: bottom;
+	}
+
+	.ecommece_categorias ul li div/*Bloque con titulos*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		position: absolute;
+		padding: 10px;
+		bottom: 0;
+		left: 0;
+		background-color:rgba(233,175,153,0.5);
+
+		/* Border redondeado */
+
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommece_categorias ul li:hover div
+
+	{
+		background-color:rgba(243,161,130,0.5);
+	}
+
+	.ecommece_categorias ul li div h2
+
+	{
+		color: #fff;
+		text-align: center;
+		text-transform: none;
+		font-size: 2.5em;
+		line-height: 1em;
+		font-weight: 100;
+		margin:0;
+		font-family: 'kaufmann_btregular';
+	}
+
+/* CATEGORIAS E-COMMERCE */
+
+/* SUBCATEGORIAS E-COMMERCE */
+	.ecommerce_subcategorias
+
+	{
+		width: 100%;
+		*display: inline-block;
+		display: inline-block;
+		margin: 0 0 10px 0;
+	}
+
+	.ecommerce_subcategorias ul
+
+	{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.ecommerce_subcategorias ul li /*Bloque de cada producto*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: auto;
+		margin: 0 5px 0 0;
+		position: relative;
+	}
+
+	.ecommerce_subcategorias ul li:last-child
+	{
+		margin: 0;
+	}
+
+	.ecommerce_subcategorias ul li div/*Bloque con titulos*/
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		position: relative;
+		padding: 10px 20px;
+		background: #DCCEA3;
+
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_subcategorias ul li:hover div
+
+	{
+		background: #EDDFB4;
+	}
+
+	.ecommerce_subcategorias ul li.active div
+	{
+		background: #fff;
+	}
+
+	.ecommerce_subcategorias ul li div h2
+
+	{
+		color: #fff;
+		text-align: center;
+		margin:0;
+	}
+
+/* SUBCATEGORIAS E-COMMERCE */
+
+/* -------------------------------------------------LISTADO DE PRODUCTOS -------------------------------------------------*/
+
+	.ecommerce_productos_lista ul
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: left;
+	}
+
+	.ecommerce_productos_lista li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 30.5%;
+		height: auto;
+		margin:0 8px 8px 0;
+		text-align: center;
+		cursor: pointer;
+	}
+	.ecommerce_productos_lista li:hover .info_prod
+
+	{
+		background: #F3EFE2;
+	}
+
+	.ecommerce_productos_lista .info_prod
+	{
+		text-align: center;
+		padding: 10px 5px;
+
+		/*background: #f1f1f1;*/
+		margin: -5px 0 0 0;
+		font-family: 'helvcondensedregular';
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_lista .oft_pro p
+	{
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		width:60px;
+		height: 60px;
+		opacity: 1;
+		background: #E9A598;
+		border-radius: 100%;
+		padding: 20px 0;
+		color: #fff;
+		font-size: 1.2em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_lista .info_prod .precio1 /*PRECIO PUBLICO*/
+
+	{
+		text-align: left;
+		color: #000000;
+		font-size: 1em;
+		line-height: 1em;
+
+		margin: 0 0 3px 0;
+
+	}
+
+	.ecommerce_productos_lista .info_prod .precio2 /*PRECIO DESCUENTO*/
+
+	{
+		text-align: left;
+		text-decoration:line-through;
+		color: #ccc;
+		font-size: 0.9em;
+		line-height: 0.9em;
+		margin: 0 0 5px 0;
+	}
+
+	.ecommerce_productos_lista .info_prod .p_inter /*IMPORTADO*/
+
+	{
+		text-align: left;
+		color: #19697D;
+		font-size: 12px;
+		font-weight: 900;
+	}
+
+	.ecommerce_productos_lista .info_prod .nodisponible /* NO DISPONIBLE*/
+
+	{
+		text-align: left;
+		color: #E33326;
+		font-size: 0.8em;
+		font-weight: 100;
+	}
+
+	.ecommerce_productos_lista .info_prod h2 /*NOMBRE*/
+
+	{
+		text-align: left;
+		color: #D9A771;
+		font-size: 1em;
+		margin: 0 0 3px 0;
+	}
+
+	.ecommerce_productos_lista .info_prod h3 /*REFERENCIA*/
+
+	{
+		text-align: left;
+		color: #000000;
+		font-size: 0.7em;
+
+	}
+
+
+/* ----------------------------------------- LISTADO DE PRODUCTOS ----------------------------------------- */
+
+/* ------------------------------------------- PRODUCTO DETALLE ------------------------------------------- */
+
+	.cont_prod_detalle
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 68%;
+		position: relative;
+		margin:  0 0 10px 0;
+
+	}
+
+	.cont_prod_detalle form .cont_izq
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 46%;
+		text-align: left;
+		margin:0 0 0 0 ;
+
+	}
+
+	.cont_prod_detalle form .cont_izq ul
+
+	{
+		margin: 0 0 5px 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.cont_prod_detalle form .cont_izq ul li
+
+	{
+		position: relative;
+		cursor: pointer;
+	}
+
+	.cont_prod_detalle form .cont_info
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		position: relative;
+		width: 48%;
+		margin: 0 0 20px 0;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.cont_prod_detalle .cont_info h1/*NOMBRE*/
+
+	{
+		margin: 0;
+
+		text-transform: uppercase;
+		font-size: 1.8em;
+		color: #CCB87D;
+		line-height: 30px;
+		margin: 0 0 5px 0;
+		/*font-family: Arial, Helvetica, sans-serif;*/
+		font-family: 'helvcondensedregular';
+	}
+
+	.cont_prod_detalle .cont_info h3/*REFERENCIA*/
+
+	{
+		text-align: left;
+		color: #ccc;
+		font-size: 13px;
+		margin: 0 0 8px 0;
+		font-weight: normal;
+
+	}
+
+	.cont_prod_detalle .cont_info .cont_porcen p /* PORCENTAJE DE DESCUENTO*/
+
+	{
+		position: absolute;
+		top: 0;
+		right: -50px;
+		width:60px;
+		height: 60px;
+		background: #E9A598;
+		border-radius: 100%;
+		padding: 20px 10px;
+		color: #fff;
+		font-size: 1.1em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_prod_detalle .cont_info h5/*HOY*/
+
+	{
+		text-align: left;
+		color: #4BB8D4;
+		font-size: 20px;
+		font-weight: 100;
+	}
+
+	.cont_prod_detalle .cont_info .precio1 /*PRECIO PUBLICO*/
+
+	{
+		text-align: left;
+		color: #E9A598;
+		font-size: 1.7em;
+		margin: 15px 0 5px 0;
+		line-height: 28px;
+
+	}
+
+	.cont_prod_detalle .cont_info .ahorro span /* VALOR AHORRADO */
+
+	{
+		color:#E9A598 ;
+	}
+
+	.cont_prod_detalle .cont_info .descripcion /*DESCRIPCION*/
+
+	{
+		margin: 0;
+		color: #999999;
+		line-height: 1.4em;
+		margin: 0 0 8px 0;
+	}
+
+	.nombre_categoria
+	{
+		color: #ccc;
+		font-weight: bold;
+		font-size: 0.9em;
+	}
+
+	.ahorro
+	{
+		color: #ccc;
+	}
+
+	.cont_prod_detalle .cont_info .disponible /*DISPONIBLE*/
+
+	{
+		color: #999999;
+		vertical-align: top;
+		font-size: 13px;
+		margin: 5px 0;
+	}
+	.cont_prod_detalle .cont_info .disponible img/*DISPONIBLE*/
+
+	{
+		margin:  0 5px 0 0;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .nodisponible /* NO DISPONIBLE*/
+	{
+		color: #E23030 ;
+		padding: 0 ;
+		text-align: left;
+		vertical-align: top;
+		font-size: 13px;
+	}
+
+	.cont_prod_detalle .cont_info .nodisponible img/* NO DISPONIBLE*/
+
+	{
+		margin:  0 5px 0 0;
+	}
+
+	.cont_prod_detalle .cont_info .p_inter  /*IMPORTADO*/
+	{
+		text-align: left;
+		color: #19697D;
+		font-size: 13px;
+		margin: 5px 0;
+		font-weight: 900;
+	}
+
+
+	.cont_prod_detalle .cont_info .tienpo_entrega /*Tiempo de Entrega*/
+	{
+		text-align: left;
+		vertical-align: top;
+		color: #777;
+		font-size: 0.8em;
+		margin: 5px 0;
+	}
+
+	.cont_prod_detalle .cont_info .tienpo_entrega img /* Tiempo de Entrega*/
+
+	{
+		margin:  0 5px 0 0;
+		vertical-align: middle;
+	}
+
+	/* ----------------------ONTENEDOR DE TALLAS EN EL DETALLE -------------------------------- */
+
+	.cont_prod_detalle .cont_info .cont_tallas
+
+	{
+		padding: 0;
+		margin: 5px 0;
+		list-style: none;
+		display: inline-block;
+		width: 100%;
+		text-align: left;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas select
+	{
+		display: inline-block;
+		width: 34%;
+		margin: 0;
+		color: #ccc;
+		font-size: 0.8em;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		padding: 0 5px;
+		background: #eee;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_prod_detalle .cont_info .cont_tallas p
+
+	{
+		color: #3898AA;
+	}
+
+	/* -------------------- CONTENEDOR DE TALLAS EN EL DETALLE ---------------------------------*/
+
+	/* ----------------------ONTENEDOR DE COLORES EN EL DETALLE -------------------------------- */
+
+	.cont_prod_detalle .cont_info .cont_colores
+
+	{
+		padding: 0;
+		margin: 5px 0 ;
+		list-style: none;
+		text-align: left;
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+
+
+	}
+
+	.cont_prod_detalle .cont_info .cont_colores select
+	{
+		color: #ccc;
+		font-size: 0.8em;
+	}
+
+
+	.cont_prod_detalle .cont_info .cont_colores p
+
+	{
+		color: #3898AA;
+	}
+
+	/* -------------------- CONTENEDOR DE COLORES EN EL DETALLE ---------------------------------*/
+
+/* ------------------------------------------- FIN PRODUCTO DETALLE ------------------------------------------- */
+
+/* ---------------------------------------------- BOTÓN DE COMPRA ---------------------------------------------- */
+
+	/* Contenedor de botones comprar */
+
+		.btn_comprar
+
+		{
+			padding: 0;
+			margin: 10px 0 0 0;
+			list-style: none;
+		}
+
+
+		.btn_comprar li
+
+		{
+			display: inline-block;
+			*display: inline-block;
+			max-width: 100%;
+			vertical-align: top;
+		}
+
+		/*  BOTON COMPRAR   */
+
+	.btn_carrito /*Estilo boton genereal*/
+		{
+			/* Fuente */
+			color: #fff;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			 font-family: 'helvcondensedregular';
+			 font-weight: bold;
+			 text-align: left;
+
+			/* Fin fuente */
+
+			background: url(../images/icono_comprar.png) #E9A598 no-repeat 55px;
+
+			margin: 10px 0 0 0;
+		    padding: 22px 71px 19px 95px;
+			display: inline-block;
+			*display: inline-block;
+
+			/* Bordes redondeados */
+			-webkit-border-radius: 50px;
+			-moz-border-radius: 50px;
+			border-radius: 50px;
+			/* Fin bordes redondeados */
+
+		}
+
+	.btn_carrito:hover /*Fondo y color de letra cuando el cursor esta sobre el botón*/
+		{
+
+
+			background: url(../images/icono_comprar.png) #BBE4E6 no-repeat 55px;
+			color:#fff;
+		}
+
+	.btn_carrito:active
+		{
+			border: 1px solid #4EA5B6;
+			background: #4EA5B6;
+		}
+
+	/*  FIN BOTON COMPRAR   */
+
+
+	/* Contenedor de botones comprar */
+
+/* ---------------------------------------------- BOTÓN DE COMPRA ---------------------------------------------- */
+
+/* BOTONES DE CARRITO DE COMPRA */
+
+	.cont_carrito_btns_centro
+
+	{
+		text-align: center;
+		margin: 20px 0 0 0;
+	}
+
+	.cont_carrito_btns_derecha
+
+	{
+		text-align: right;
+		margin: 15px 0;
+	}
+
+/* BOTONES DE CARRITO DE COMPRA */
+
+/* ---------------------------------------- BOTONES DETALLE DEL PRODUCTO ---------------------------------------- */
+
+	.btn_ecommerce_detalle
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+
+	.btn_ecommerce_detalle ul
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.btn_ecommerce_detalle ul li
+
+	{
+		margin: 0 0 0 0;
+	}
+
+	.btn_ecommerce_detalle ul li a
+
+	{
+		font-size: 0.9em;
+		padding: 10px;
+		margin: 0;
+		background: #D2C08A;
+		color: #fff;
+		/* Bordes redondeados */
+
+		/* Fin bordes redondeados */
+		/* Sombra externa */
+
+		/* Fin sombra externa */
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.btn_ecommerce_detalle ul li a:hover
+
+	{
+		background: #E9A598;
+	}
+
+	.btn_ecommerce_detalle ul li a.active
+
+	{
+		background: #E9A598;
+	}
+
+	/* CONTENEDOR DE ECOMMERCE DETALLE */
+
+	.cont_tab_ecommerce_detalle
+
+	{
+		width: 100%;
+		margin: 0;
+		padding: 15px 20px;
+		background: #FBF9EE;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+		.cont_tab_ecommerce_detalle p
+		{
+			color: #7F7F7F;
+			font-size: 0.9em;
+		}
+
+	/* CONTENEDOR DE ECOMMERCE DETALLE */
+
+/* ---------------------------------------- BOTONES DETALLE DEL PRODUCTO ---------------------------------------- */
+
+
+/* --------------------------------------------- CARRITO DE COMPRAS --------------------------------------------- */
+
+
+	/* CONTENEDOR CARIITO DE COMPRA VACIO */
+
+	.cont_carrito .no_producto
+
+	{
+		text-align:center;
+	}
+
+	.cont_carrito .no_producto h3
+
+	{
+		text-align:center;
+		margin: 5px 0;
+	}
+
+	/* CONTENEDOR CARIITO DE COMPRA VACIO */
+
+	/* MENSAJE  DE TRANSACCION */
+
+	.cont_carrito .texto_transaccion
+
+	{
+		background: #E1FFE8;
+		margin: 0 0 10px 0;
+		padding: 10px;
+		border: 1px solid #C4EDCE;
+		font-size: 0.9em;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		/*Sombre externa*/
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		/*Sombre externa*/
+
+	}
+
+	.cont_carrito .mensaje_pedido
+
+	{
+		background: #E1FFE8;
+		margin: 0 0 10px 0;
+		padding: 10px;
+		border: 1px solid #C4EDCE;
+		font-size: 0.9em;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		/*Sombre externa*/
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		/*Sombre externa*/
+
+	}
+
+	.cont_carrito .mensaje_pedido a
+
+	{
+		color: #53A968;
+	}
+
+	/* MENSAJE  DE TRANSACCION */
+
+	/* TABLA DE PRODUCTOS */
+
+	.tbl_productos
+
+	{
+		vertical-align: top;
+		width: 100%;
+	}
+
+	.tbl_productos .cbz_carrito td
+
+	{
+		background: #f3f3f3;
+		color: #666;
+		font-size: 0.9em;
+		text-align: center;
+	}
+
+	.tbl_productos tr td.campo
+
+	{
+		width: 100px;
+	}
+
+	.tbl_productos tr td
+
+	{
+		padding: 5px 10px;
+		background: #fff;
+		font-size: 0.9em;
+		text-align: center;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	.tbl_productos tr td img
+
+	{
+		max-width: 80px;
+	}
+
+	.tbl_productos tr td input
+
+	{
+		max-width: 50px;
+		text-align: center;
+	}
+
+	/* Contenido del producto */
+
+	.tbl_productos tr td .cont_producto h3
+
+	{
+		margin: 0;
+		text-align: left;
+		font-size: 0.9em;
+	}
+
+	/* ------ CONTENEDOR DE TALLAS EN EL CARRITO ----- */
+
+	.tbl_productos tr td .cont_producto .cont_tallas
+
+	{
+		padding: 0;
+		margin: 5px 0;
+		list-style: none;
+		text-align: left;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_tallas h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_tallas li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		padding: 0 5px;
+		background: #eee;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_tallas p
+
+	{
+		color: #3898AA;
+	}
+
+	/* ------ CONTENEDOR DE TALLAS EN EL CARRIRO ------*/
+
+	/* ------ CONTENEDOR DE COLORES EN EL CARRIRO ----- */
+
+	.tbl_productos tr td .cont_producto .cont_colores
+
+	{
+		padding: 0;
+		margin: 5px 0 ;
+		list-style: none;
+		text-align: left;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_colores h3
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_colores li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width:20px ;
+		height: 20px;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		background: #666;
+	}
+
+	.tbl_productos tr td .cont_producto .cont_colores p
+
+	{
+		color: #3898AA;
+	}
+
+	/* ---- CONTENEDOR DE COLORES CARRITO -----*/
+
+	/* Fin contenido del producto */
+
+	/*  FIN TABLA DE PRODUCTOS */
+
+	/* CONTENEDOR VALORES DE COMPRA */
+
+	.cont_carrito_valores
+
+	{
+		width: 100%;
+	}
+
+	.cont_carrito_valores td
+
+	{
+		padding:2px 5px;
+		width: 82%;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	}
+
+	.cont_carrito_valores td select
+
+	{
+		max-width: 40%;
+	}
+
+	.cont_carrito_valores td .camp_requerido
+
+	{
+		color: #D04646;
+		font-size: 0.8em;
+	}
+
+	.cont_carrito_valores td img
+
+	{
+		vertical-align: middle;
+		margin: 0 5px 0 0;
+	}
+
+
+	.cont_carrito_valores .txt /*Texto*/
+
+	{
+		text-align: right;
+	}
+
+	.cont_carrito_valores .precio /* Precio*/
+
+	{
+		text-align: right;
+	}
+
+	.cont_carrito_valores .p_total /* Precio*/
+
+	{
+		color:#D04646;
+	}
+
+	/* Terminos y condiciones */
+
+	.cont_carrito_valores .check input, .cont_carrito_valores .check p
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+	.cont_carrito_valores .check a
+
+	{
+		font-size: 0.8em;
+		color: #D04646;
+	}
+
+	.cont_carrito_valores .check a:hover
+
+	{
+		text-decoration: underline;
+	}
+
+	/* Terminos y condiciones */
+
+	.cont_carrito_valores .total
+
+	{
+		color: #000000;
+		font-size: 1.3em;
+		/*background: #eee;*/
+		padding: 5px;
+	}
+
+	.cont_carrito_valores .total p
+	{
+		font-weight: bold;
+	}
+
+	/* FIN CONTENEDOR VALORES DE COMPRA */
+
+/* --------------------------------------------- CARRITO DE COMPRAS --------------------------------------------- */
+
+/* ----------------------------------------------- CARRUSEL OTROS PRODUCTO ----------------------------------------------- */
+
+	.carrusel_otros_productos
+		{
+			width: 100%;
+			margin: 10px 0;
+			padding: 0;
+			display: inline-block;
+			*display: inline;
+			vertical-align: middle;
+			position: relative;
+		}
+
+	.carrusel_otros_productos h1
+		{
+			font-size: 18px;
+		}
+	.carrusel_otros_productos #carrusel_otros_productos {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: block;
+	}
+	.carrusel_otros_productos .item_productos {
+		text-align: center;
+		width: 145px;
+		min-height: 280px;
+		padding: 5px;
+		margin:0 9px;
+		display: block;
+		border: 1px	solid #EEE;
+		float: left;
+		font-family: 'helvcondensedregular';
+		box-sizing:border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.carrusel_otros_productos .item_productos h3
+	{
+		color: #ccc;
+		font-size: 0.9em;
+	}
+
+	.carrusel_otros_productos .item_productos a
+		{
+			text-decoration: none;
+			color: #000;
+		}
+
+	.carrusel_otros_productos .item_productos:hover
+		{
+			border: 1px	solid #ddd;
+		}
+
+	.carrusel_otros_productos .item_productos  img
+		{
+			vertical-align: middle;
+			margin: 0 0 8px 0;
+		}
+
+	.carrusel_otros_productos .item_productos h4
+		{
+			text-align: left;
+			color: #D9A771;
+			font-size: 0.9em;
+			margin: 0 0 3px 0;
+			text-transform: uppercase;
+		}
+
+	.carrusel_otros_productos .item_productos:hover h4
+		{
+			color: #D9A771;
+		}
+
+	.carrusel_otros_productos .item_productos p
+	{
+		text-align: left;
+		color: #000000;
+		font-size: 13px;
+		line-height: 13px;
+
+	}
+
+	.carrusel_otros_productos .clearfix {
+		float: none;
+		clear: both;
+	}
+	.carrusel_otros_productos .prev {
+
+		position: absolute;
+		right: -20px;
+		top: 120px;
+	}
+	.carrusel_otros_productos .next {
+		position: absolute;
+		left: -20px;
+		top: 120px;
+	}
+
+/* -------------------------------------------- FIN CARRUSEL OTROS PRODUCTOS --------------------------------------------*/
+
+/* ----------------------------------------------- TRACKING EN EL LATERAL ----------------------------------------------- */
+
+	aside .cont_tracking
+
+	{
+		width: 100%;
+		text-align: center;
+		margin: 0 0 10px 0 ;
+		display: inline-block;
+		_display:inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		background: #f3f3f3;
+		padding: 10px;
+		/* Bordes redondeados */
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		/* Fin bordes redondeados */
+		/* Sombra externa */
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		box-shadow:1px 1px 4px 0px rgba(50, 50, 50, 0.5);
+		/* Fin sombra externa */
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	aside .cont_tracking h2
+
+	{
+		text-align: center;
+	}
+
+
+/* ----------------------------------------------- TRACKING EN EL LATERAL ----------------------------------------------- */
+
+
+/* ------------------------------------------ CARRITO DE COMPRAS EN EL LATERAL ------------------------------------------ */
+
+	aside .carrito_compras
+
+	{
+		width: 100%;
+		text-align: center;
+		margin: 0 0 10px 0 ;
+		display: inline-block;
+		_display:inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		background: #fff;
+		padding: 10px;
+		border: 1px solid #e3e3e3;
+
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+
+
+	aside .carrito_compras table
+
+	{
+		width: 100%;
+		vertical-align: top;
+	}
+
+	aside .carrito_compras table.tbl_producto
+
+	{
+		text-align: left;
+		border-bottom: 1px solid #d6d6d6;
+	}
+
+		aside .carrito_compras table.tbl_producto:last-child
+		{
+			border: none;
+		}
+
+	aside .carrito_compras table.tbl_producto img /*Imagen del producto*/
+
+	{
+		max-width: 60px;
+	}
+
+	aside .carrito_compras table.tbl_producto p /*Nombre del producto*/
+
+	{
+		color: #777;
+		text-transform: uppercase;
+	}
+
+	aside .carrito_compras table.tbl_producto p.precio /*Precio del producto*/
+
+	{
+		color: #3898AA;
+	}
+
+
+	aside .carrito_compras table.tbl_totales /* Contenedor de totales*/
+
+	{
+		text-align: right;
+	}
+
+	aside .carrito_compras table.tbl_totales p
+
+	{
+		color:#E23030;
+	}
+
+	.eliminar
+	{
+		width: 14px;
+		height: 14px;
+		background: url(../images/eliminar.png) no-repeat;
+
+	}
+
+/* ------------------------------------------ CARRITO DE COMPRAS EN EL LATERAL ------------------------------------------ */
+
+	/* BUSCADOR EN EL LATERAL DEL E-COMMERCE */
+
+	aside .ecommerce_buscador
+		{
+			display: inline-block;
+			*display: inline-block;
+			vertical-align: middle;
+			width: 100%;
+			text-align: center;
+			margin-bottom: 15px;
+
+			padding: 0;
+
+			/* Sombra externa */
+
+			/* Fin sombra externa */
+			box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+
+		}
+
+
+
+	aside .ecommerce_buscador h4
+
+	{
+		text-align: left;
+		color: #777;
+		font-size: 0.8em;
+		margin: 0 0 5px 0;
+	}
+
+	aside .ecommerce_buscador ul
+
+	{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align:left;
+	}
+
+	aside .ecommerce_buscador ul li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 23%;
+	}
+
+	aside .ecommerce_buscador ul li span
+	{
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		border-radius: 100%;
+		border: 1px solid #ddd;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	aside .ecommerce_buscador input[type="text"]
+		{
+			display: inline-block;
+			*display: inline-block;
+			width: 81%;
+			padding: 5px;
+			margin: 0;
+			left: 3px;
+			position: relative;
+			box-sizing:border-box;
+			-o-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+
+	aside .ecommerce_buscador select
+		{
+			margin: 0 0 5px 0;
+		}
+
+	aside .ecommerce_buscador nav
+		{
+			margin: 5px 0 0 0 ;
+		}
+
+	aside .ecommerce_buscador input[type="submit"]
+		{
+			display: inline-block;
+			*display: inline-block;
+			vertical-align: middle;
+			background: url(../images/buscar.png) no-repeat 8px;
+			border:0;
+			margin: 0;
+			padding: 5px 20px;
+			max-width: 100%;
+			color: #ffffff;
+			box-sizing:border-box;
+			-o-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+
+	/* BUSCADOR EN EL LATERAL DEL E-COMMERCE */
+
+
+
+	/*  CATEGORIAS LATERAL  */
+
+.ecommerce_categorias_lateral
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.ecommerce_categorias_lateral ul
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ecommerce_categorias_lateral ul li
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 3px 0;
+	padding: 0 0 3px 10px;
+	border-bottom: 1px solid #ccc;
+	box-sizing:border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.ecommerce_categorias_lateral ul li a
+{
+	color: #999999;
+}
+
+.ecommerce_categorias_lateral ul li p
+{
+	color: #999999;
+	font-size: 0.9em;
+}
+
+.ecommerce_categorias_lateral ul li:last-child
+{
+	border: none;
+}
+
+.ecommerce_categorias_lateral ul li:hover p
+{
+	color: #F3D0C7;
+}
+
+.ecommerce_categorias_lateral ul li ul
+{
+	display: none;
+}
+
+/* FIN CATEGORIAS LATERAL  */
+
+
+
+
+/* TIENDAS */
+
+.ecommerce_tiendas
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	 font-family: 'helvcondensedregular';
+	 text-align: center;
+}
+
+.ecommerce_tiendas li
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px 20px 0;
+	width: 46.5%;
+	border: 1px solid #ececec;
+	padding: 10px;
+	box-sizing:border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+.ecommerce_tiendas li img
+{
+	display: inline-block;
+	max-width: 100%;
+	border: none;
+	margin: 0 0 10px 0;
+}
+
+.ecommerce_tiendas li h2
+{
+	display: inline-block;
+	width: 100%;
+	color: #000000;
+	margin: 0 0 5px 0;
+	padding:  0 0 5px 0;
+	border-bottom: 2px solid #C3AB64;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.ecommerce_tiendas li p
+{
+	font-size: 0.9em;
+}
+
+
+.ecommerce_tiendas li nav
+{
+	display: inline-block;
+	width: 100%;
+	margin: 10px 0 0 0 ;
+}
+/*  FIN TIENDAS  */
+
+/* ------------------------------------------ HISTORIAL DE COMPRA ------------------------------------------ */
+	.con_historial select
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		margin:0 0 10px 0;
+		max-width: 25%;
+	}
+
+	.con_historial .tbl_historial td, .con_historial .tbl_historial th
+
+	{
+		border: 1px solid #ddd;
+		padding: 2px;
+		text-align: center;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.con_historial .tbl_historial th
+
+	{
+		font-size: 0.8em;
+	}
+
+	.con_historial .tbl_historial a
+
+	{
+		color:#F16366;
+	}
+
+	.con_historial .tbl_historial a:hover
+
+	{
+		text-decoration: underline;
+	}
+/* ------------------------------------------ HISTORIAL DE COMPRA ------------------------------------------ */
+
+/* ACTULIZAR DATOS ZONA PRIVADA */
+	#frm_actualizar_zona fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 31.5%;
+		margin: 5px;
+		padding: 0;
+	}
+
+		#frm_actualizar_zona .campo_dirección
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 97.5%;
+		margin: 5px;
+		padding: 0;
+	}
+
+
+	#frm_actualizar_zona .cont_btns
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 14%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#frm_actualizar_zona fieldset label
+
+	{
+		font-size: 0.8em;
+		color: #888;
+	}
+
+	#frm_actualizar_zona fieldset.fecha_nacimiento
+
+	{
+		width: 32%;
+	}
+
+	#frm_actualizar_zona fieldset.fecha_nacimiento article
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 32%;
+	}
+
+/* ACTULIZAR DATOS ZONA PRIVADA */
+
+.titulo_otros
+{
+	margin: 0 0 5px 0;
+	font-size: 1em;
+}
+
+.btn_seguir_comprando
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 10px 0;
+	text-align: right;
+}
+
+
+/* CODIGO PROMOCIONAL   */
+
+.codigo_carrito
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	background: #FCF8ED;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+
+}
+
+.codigo_carrito h3
+{
+	display: inline-block;
+	width: 100%;
+	margin: 0 0 5px 0;
+
+}
+
+.codigo_carrito input[type="text"]
+{
+	display: inline-block;
+	width: 62%;
+}
+.codigo_carrito input[type="submit"]
+{
+	background: #DCCEA3;
+	border: 1px solid #DCCEA3;
+	color: #fff;
+	padding: 4px 8px;
+}
+
+/*  FIN CODIGO PROMOCIONAL   */
+
+
+/*  CALCULADOR ENVIO   */
+
+.cont_frm_calcular
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*  FIN CALCULADOR ENVIO   */
+
+
+
+
+#tiendas_busqueda
+{
+	width: 100%;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+
+.buscador_tiendas
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.buscador_tiendas tr td
+{
+	padding: 0 15px 0 0;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+
+
+.buscador_tiendas tr td select
+{
+	color: #9b9b9b;
+	padding: 5px;
+	font-size: 14px;
+	box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+

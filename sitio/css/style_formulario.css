@@ -1,0 +1,314 @@
+.bloque_formularios
+{
+	width: 100%;
+	display: inline-block;
+	*display: inline-block;
+	padding: 0;
+	margin: 0;
+	-o-box-sizing: border-box; /* Opera */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+
+}
+
+/* CONTENEDOR IFRAME AL LADO DEL FORMULARIO */
+
+	.cont_frm_iframe
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		margin: 0 10px 0 0;
+	}
+
+/* CONTENEDOR IFRAME AL LADO DEL FORMULARIO */
+
+/* CONTENEDOR DE POLITICAS Y CONDICIONES */
+	.cont_politicas input
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		margin:0 5px 0 0;
+	}
+
+	.cont_politicas p
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		margin:0;
+		text-align: left;
+		color: #444;
+	}
+
+	.cont_politicas p:hover
+	{
+		text-decoration: underline;
+	}
+
+/* CONTENEDOR DE POLITICAS Y CONDICIONES */
+
+/* CONTENEDOR CAPCHA */
+
+	.contenedor_capcha
+
+	{
+		text-align: right;
+	}
+
+	.contenedor_capcha	.img_capcha
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		margin: 0 10px 0 0;
+		width: 58%;
+	}
+
+	.contenedor_capcha	.or_cont
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		margin: 0 0 0 0;
+		width: 35%;
+	}
+
+/* CONTENEDOR CAPCHA */
+
+/* FORMULARIO TIPO 1 */ /*UNA COLUMNA SIN PLACEHOLDER*/
+
+	.cont_frm_tipo1
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo1 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+	.cont_frm_tipo1 fieldset label
+
+	{
+		color: #000;
+		font-size: 14px;
+	}
+
+	.cont_frm_tipo1 fieldset div
+
+	{
+		margin: 5px 0 0 0;
+	}
+
+/* FORMULARIO TIPO 1 */
+
+/* FORMULARIO TIPO 2 */ /* DOS COLUMNAS SIN PLACEHOLDER*/
+
+	.cont_frm_tipo2
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo2 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		padding: 0;
+		margin: 0 10px 10px 0;
+	}
+
+	.cont_frm_tipo2 fieldset label
+
+	{
+		color: #000;
+		font-size: 14px;
+	}
+
+	.cont_frm_tipo2 fieldset div
+
+	{
+		margin: 5px 0 0 0;
+	}
+
+/* FORMULARIO TIPO 2 */
+
+/* FORMULARIO TIPO 3 */ /*UNA COLUMNA SIN PLACEHOLDER Y CON MAPA O VIDEO AL LADO*/
+
+	.cont_frm_tipo3
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 48%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo3 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+	.cont_frm_tipo3 fieldset label
+
+	{
+		color: #000;
+		font-size: 14px;
+	}
+
+	.cont_frm_tipo3 fieldset div
+
+	{
+		margin: 5px 0 0 0;
+	}
+
+/* FORMULARIO TIPO 3 */
+
+/* FORMULARIO TIPO 4 */ /*UNA COLUMNA CON PLACEHOLDER*/
+
+	.cont_frm_tipo4
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo4 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+/* FORMULARIO TIPO 4 */
+
+/* FORMULARIO TIPO 5 */ /* DOS COLUMNAS CON PLACEHOLDER*/
+
+	.cont_frm_tipo5
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo5 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 48%;
+		padding: 0;
+		margin: 0 10px 10px 0;
+	}
+
+/* FORMULARIO TIPO 5 */
+
+/* FORMULARIO TIPO 6 */ /*UNA COLUMNA CON PLACEHOLDER Y CON MAPA O VIDEO AL LADO*/
+
+	.cont_frm_tipo6
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 48%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo6 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+/* FORMULARIO TIPO 6 */
+
+/* FORMULARIO TIPO 7 */ /*UNA COLUMNA SIN PLACEHOLDER */
+
+	.cont_frm_tipo7
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.cont_frm_tipo7 fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 5px 0;
+	}
+
+	.cont_frm_tipo7 fieldset label
+
+	{
+		color: #b0b0b0;
+		font-size: 14px;
+		width: 90px;
+		text-align: left;
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+	.cont_frm_tipo7 fieldset div
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 68%;
+		padding: 2px;
+		vertical-align: middle;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+/* FORMULARIO TIPO 7 */

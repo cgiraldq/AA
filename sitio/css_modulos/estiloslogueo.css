@@ -1,0 +1,256 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+fieldset,img {
+	border: 0;
+	vertical-align: middle;
+}
+a {
+	text-decoration:none;
+}
+strong{
+	font-weight:bold
+}
+
+ol,ul {
+	list-style:none;
+}
+
+body{
+	font-family:'MyriadProRegular';
+	font-size:12px;
+	color:#333333;
+}
+
+p{
+	margin-bottom:5px;
+	color:#666666;
+	font-size:12px;
+	line-height:12px;
+}
+
+
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fuentes/myriadpro-regular_0-webfont.eot');
+    src: url('../fuentes/myriadpro-regular_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes/myriadpro-regular_0-webfont.woff') format('woff'),
+         url('../fuentes/myriadpro-regular_0-webfont.ttf') format('truetype'),
+         url('../fuentes/myriadpro-regular_0-webfont.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* ESTILOS ADMIN */
+
+.contenedor_cbzadmin{
+	width: 100%;
+	height: auto;
+	background-image: url('../img/bg_cbz1_admin.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #F7F7F6;
+}
+
+.bloque_cbzadmin{
+	width: 995px;
+	height: auto;
+	padding-top: 40px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.bg_admin{
+	width: 975px;
+	height: 315px;
+	padding: 10px;
+	background-image: url('../img/bg_admin.jpg');
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.izquierda_bg_admin{
+	width: 280px;
+	height: auto;
+	float: left;
+	margin: 55px 0 0 20px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+.izquierda_bg_admin img{
+	margin-bottom: 5px;
+}
+
+.derecha_bg_admin{
+	width: 632px;
+	height: auto;
+	margin: 5px 25px 0 0;
+	float: right;
+}
+
+
+.ingreso_admin{
+	width: 297px;
+	height: 187px;
+	background-image: url('../img/bg_transparenteadmin.png');
+	background-repeat: no-repeat;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 10px 10px 0 0;
+	float: left;
+	padding: 5px 15px;
+}
+
+
+.ingreso_admin a{
+	color: #333;
+	font-size: 11px;
+	text-decoration:underline;
+}
+
+.img_admin{
+	width: 295px;
+	height: 194px;
+	margin: 18px 0 0 0;
+	float:left;
+}
+
+.input_admin{
+	width: 118px;
+	height: 21px;
+	background-image: url('../img/bg_input_admin.png');
+	background-repeat: no-repeat;
+	padding: 5px 0 0 8px;
+}
+
+.input_admin input{
+	width: 110px;
+	height: 18px;
+	color: #666;
+	border: 0;
+	font-size: 11px;
+}
+
+.captcha_admin{
+	width: 220px;
+	height: 65px;
+	background-image: url('../img/bg_captcha_admin.png');
+	background-repeat: no-repeat;
+	padding: 5px;
+
+}
+.validacion{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ED7303;
+}
+
+.sombra_admin{
+	width: 995px;
+	height: 26px;
+	background-image: url('../img/sombra_admin.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	overflow: hidden;
+}
+
+.contenedor_remateadmin{
+	width: 100%;
+	height: auto;
+	background-image: url('../img/bg_remate_admin.jpg');
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #A6AE96;
+}
+
+.bloque_remateadmin{
+	width: 975px;
+	height: 140px;
+	margin: auto;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	padding: 15px 10px;
+}
+
+.izquierda_remateadmin{
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+
+.derecha_remateadmin{
+	width: 205px;
+	height: 125px;
+	float: right;
+}
+
+.bandera_cf{
+	width: 181px;
+	height: 38px;
+	background-image: url('../img/bg_banderacf.png');
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #26404E;
+}
+
+.bandera_cf a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ED7303;
+	text-decoration: none;
+}
+
+.bandera_cf img{
+	float: left;
+	margin-right: 3px;
+}
+.txt_blanco_admin1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color: #FFF;
+}
+
+.txt_blanco_admin2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: #FFF;
+}
+
+.txt_blanco_admin3{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+}
+.txt_miga1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333;
+}
+
+.txt_remateadmin{
+	color: #FCF5B7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+
+
+/* CIERRA ESTILOS ADMIN */
+/* ------------------------------------------------------------------------------------------------------------------ */
+

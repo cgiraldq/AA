@@ -1,0 +1,124 @@
+.stores-locations-main{width:100%;float:left;height:auto;}
+.no-store{
+float: left;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+width: 100%;
+}
+#sidebar{float:left; margin:10px 0; width:220px;overflow:scroll;max-height:200px;}
+.sidebar-title 
+{
+float: left;
+font-size: 20px;
+font-weight: bold;
+padding-top: 7px;
+text-align: center;
+width: 210px;
+}
+#left-sidebar-map{float:left; margin:0px 10px 0px 0px; width:250px; }
+.main_div_map{	width:100%;	float:left;	height:auto;}
+
+#left-sidebar-map .drop-down
+{
+float: left;
+width: 200px;
+}
+#left-sidebar-map .drop-down .top
+{
+float: left;
+width: 200px;
+height: 6px;
+}
+#left-sidebar-map .drop-down .content
+{
+float: left;
+width: 183px;
+padding-bottom: 4px;
+padding-top: 7px;
+padding-left: 35px;
+}
+
+#left-sidebar-map .drop-down .bottom
+{
+float: left;
+width: 200px;
+height: 6px;
+}
+#left-sidebar-map .drop-down .content .title 
+{
+float: left;
+width: 100%;
+font-weight:bold;
+}
+#left-sidebar-map .drop-down .content .main-content {
+float: left;
+width: 100%;
+}
+#left-sidebar-map .drop-down .content .main-content select{
+float: left;
+width: 154px;
+height: 23px;
+}
+.map-lis
+{
+padding-left:10px;
+}
+.map-buttons
+{
+float: left;
+width: 91px;
+height: 28px;
+margin-left: 35px;
+margin-top: 10px;
+text-align: center !important
+}
+.map-button-search
+{
+float: left;
+width: 91px;
+margin-left: 35px;
+margin-top: 10px;
+text-align: center !important
+}
+.map-button-search .map-button{
+height: 50px;
+font-size:14px !important;
+}
+
+#map-div
+{
+float: left;
+width: 640px;
+margin-top: 0px;
+
+}
+
+#map-div .top
+{
+float: left;
+width: 537px;
+height: 8px;
+}
+#map-div .content
+{
+float: left;
+width: 620px;
+background: #ffffff;
+padding: 10px;
+}
+
+#map-div .bottom
+{
+float: left;
+width: 537px;
+height: 8px;
+}
+#map
+{
+width: 620px;
+height: 450px;
+margin: 0px;
+margin-left: 0px;.
+
+}

@@ -1,0 +1,778 @@
+/* ----------------------------------------- ZONA DE DISTRIBUIDORES ----------------------------------------- */
+	.cont_zona_distribuidores
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 100%;
+	}
+
+	/* BOTONES CON CAPAS - ZONA DISTRIBUIDORES*/
+
+	.cont_zona_distribuidor ul.tabs {background:#FFF; padding: 0; text-align: left; margin: 20px 0;}
+	.cont_zona_distribuidor ul.tabs li {list-style: none; display: inline-block;*display: inline-block; max-width:100%;margin: 0 0 5px 0;}
+	.cont_zona_distribuidor ul.tabs li:last-child { margin: 0;}
+	.cont_zona_distribuidor ul.tabs li a { list-style: none;  display: block; text-decoration: none; color: #FFF;}
+	.cont_zona_distribuidor ul.tabs li a:hover  { color: #FFF;background: #D2C08A}
+	.cont_zona_distribuidor ul.tabs li a.active  {background-color: #D2C08A ;color: #fff;border: 1px solid #D2C08A;}
+	.cont_zona_distribuidor ul.tabs li a:focus  {border: none;}
+
+	/* BOTONES CON CAPAS - ZONA DISTRIBUIDORES*/
+
+	.cont_cbz_zona_distribuidor
+
+	{
+		text-align: left;
+	}
+	.cont_cbz_zona_distribuidor h3
+
+	{
+		font-size: 1.1em;
+		color:#000;
+	}
+
+	.cont_cbz_zona_distribuidor span
+
+	{
+		font-size: 1.1em;
+		color: #CC0000;
+	}
+
+	.cont_cbz_zona_distribuidor h1
+
+	{
+		font-size: 2em;
+		margin: 0;
+
+	}
+
+	/* CUERPO DE CAPAS */
+
+	.cuerpo_zona_distribuidor h1
+
+	{
+		font-size: 1.2em;
+		text-transform: none;
+	}
+
+	/* CUERPO DE CAPAS */
+
+
+	/* TABLA DE PEDIDOS */
+
+	.ecommerce_tbl_pedidos thead tr
+
+	{
+		background: #FFF;
+	}
+
+	.ecommerce_tbl_pedidos thead tr td
+
+	{
+		text-align: center;
+		text-transform: uppercase;
+		color: #333;
+		font-size: 0.8em;
+		padding: 5px;
+		font-weight: 700;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr
+
+	{
+		background: #fafafa;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td
+
+	{
+		text-align: center;
+		padding: 10px;
+		color: #333;
+		border-bottom: 4px  solid #fff;
+		font-size: 0.8em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td.verde
+
+	{
+		color:#00CC33;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td.azul
+
+	{
+		color:#0099CC;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td.rojo
+
+	{
+		color:#FF0000;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td a
+
+	{
+		color:#FF0000;
+		text-decoration: underline;
+	}
+
+	.ecommerce_tbl_pedidos tbody tr td a.enlace
+
+	{
+		color:#000;
+		text-decoration: underline;
+	}
+
+	.link_distribuidor
+
+	{
+		color:#CC0000;
+		font-size: 0.8em;
+	}
+
+	.link_distribuidor:hover
+
+	{
+		text-decoration: underline;
+	}
+	/* TABLA DE PEDIDOS */
+
+	/* TABLA DE PUNTOS */
+
+	.ecommerce_tbl_puntos thead tr
+
+	{
+		background: #FFF;
+	}
+
+	.ecommerce_tbl_puntos thead tr td
+
+	{
+		text-align: center;
+		text-transform: uppercase;
+		color: #333;
+		font-size: 0.8em;
+		padding: 5px;
+		font-weight: 700;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_tbl_puntos tbody tr
+
+	{
+		background: #fafafa;
+	}
+
+	.ecommerce_tbl_puntos tbody tr td
+
+	{
+		text-align: center;
+		padding: 10px;
+		color: #333;
+		border-bottom: 4px  solid #fff;
+		font-size: 0.8em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_tbl_puntos tbody tr td.verde
+
+	{
+		color:#00CC33;
+	}
+
+	.ecommerce_tbl_puntos tbody tr td.azul
+
+	{
+		color:#0099CC;
+	}
+
+	.ecommerce_tbl_puntos tbody tr td.rojo
+
+	{
+		color:#FF0000;
+	}
+
+	.ecommerce_tbl_puntos tbody tr td a
+
+	{
+		color:#FF0000;
+		text-decoration: underline;
+	}
+
+	/* PUNTOS EN EL LATERAL */
+
+	.cont_puntos_lateral
+
+	{
+		margin: 0 0 10px 0;
+	}
+
+	/* PUNTOS EN EL LATERAL */
+
+	/* TABLA DE PUNTOS */
+
+	/* CABEZOTE DE PUNTOS */
+	.cbz_puntos
+
+	{
+		background: #BBE4E6;
+		padding: 15px;
+		margin: 0 0 10px 0;
+		color: #fff;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cbz_puntos tr td
+
+	{
+		vertical-align: middle;
+	}
+
+	.cbz_puntos .cont_izq
+
+	{
+		text-align: center;
+		width: 35%;
+	}
+
+	.cbz_puntos .cont_izq h2
+
+	{
+		text-align: center;
+		color: #fff;
+		margin: 0;
+		font-size: 1.8em;
+	}
+
+	.cbz_puntos .cont_izq h3
+
+	{
+		text-align: center;
+		color: #fff;
+		margin: 0;
+		font-size: 3.5em;
+		line-height:54px;
+	}
+
+	.cbz_puntos .cont_derecha
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+	}
+
+
+	/* CABEZOTE DE PUNTOS */
+
+	/* PRODUCTO REDIMIR */
+
+	.ecommerce_producto_redimir
+
+	{
+		padding: 0;
+		margin: 10px 0 0 0;
+		list-style: none;
+	}
+
+	.ecommerce_producto_redimir li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 31%;
+		margin: 0 5px 10px 5px;
+	}
+
+	.ecommerce_producto_redimir li img
+
+	{
+		border: 1px solid #EFEFEF;
+	}
+
+	.ecommerce_producto_redimir li div
+
+	{
+		padding: 10px;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_producto_redimir li div h2
+
+	{
+		color: #000;
+		margin: 0 0 5px 0;
+	}
+
+	.ecommerce_producto_redimir li div h3
+
+	{
+		color: #000;
+	}
+
+	.ecommerce_producto_redimir li div a
+
+	{
+		color: #CC0000;
+		display: block;
+		font-size: 0.8em;
+	}
+
+	/* PRODUCTO REDIMIR */
+
+	/* PRODUCTOS DISTRIBUIDOR */
+
+	.ecommerce_producto_distribuidor
+
+	{
+		padding: 0;
+		margin: 10px 0 0 0;
+		list-style: none;
+	}
+
+	.ecommerce_producto_distribuidor h4
+
+	{
+		background: #ccc;
+		padding: 6px 10px;
+		text-align: left;
+		color: #FFF;
+		font-size: 0.9em;
+		margin: 0 0 10px 0;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_producto_distribuidor li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: top;
+		width: 31%;
+		margin: 0 5px 10px 5px;
+	}
+
+	.ecommerce_producto_distribuidor li img
+
+	{
+		border: 1px solid #EFEFEF;
+	}
+
+	.ecommerce_producto_distribuidor li div
+
+	{
+		padding: 10px;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_producto_distribuidor li div h2
+
+	{
+		color: #000;
+		margin: 0 0 5px 0;
+	}
+
+	.ecommerce_producto_distribuidor li div h3
+
+	{
+		color: #000;
+		margin: 0;
+	}
+
+	.ecommerce_producto_distribuidor li div p.ahorro
+
+	{
+		color: #CCC;
+		font-size:0.8em;
+		line-height: 22px;
+		text-decoration: line-through;
+	}
+	.ecommerce_producto_distribuidor li div p
+	{
+		color:#333;
+		line-height: 16px;
+
+	}
+
+	.ecommerce_producto_distribuidor li div a
+
+	{
+		color: #CC0000;
+		display: block;
+		font-size: 0.8em;
+		margin: 5px 0 0 0;
+	}
+
+	.ecommerce_producto_distribuidor li div a:hover
+
+	{
+		text-decoration: underline;
+	}
+
+	/* PRODUCTOS DISTRIBUIDOR */
+
+	/* ACTULIZAR DATOS */
+
+	.frm_actulizar_datos
+
+	{
+		text-align: left;
+	}
+
+	.frm_actulizar_datos fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		margin: 0 0 10px 0;
+		padding: 0;
+	}
+
+	.frm_actulizar_datos fieldset label
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 22%;
+	}
+
+	.frm_actulizar_datos fieldset div
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 77%;
+	}
+
+	.frm_actulizar_datos fieldset.fecha_nacimiento article
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 15%;
+	}
+
+	.frm_actulizar_datos .barra
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		vertical-align: middle;
+		width: 100%;
+		height: 2px;
+		margin: 10px 0 20px 0;
+		background: #eee;
+	}
+	/* ACTULIZAR DATOS */
+
+
+
+	/* REFERIDOS EN EL LATERAL */
+
+	.cont_referidos_lateral
+
+	{
+		background:#FBF9EE;
+		padding: 10px;
+		margin: 0 0 10px 0;
+
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.cont_referidos_lateral h2
+	{
+		color: #666666;
+		text-align: center;
+		font-size: 1.3em;
+	}
+
+	.cont_referidos_lateral p
+
+	{
+		line-height: 14px;
+		font-size: 0.75em;
+		color: #666666;
+		margin: 0 0 5px 0;
+	}
+
+	.cont_referidos_lateral fieldset
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 10px 0;
+	}
+
+	.cont_referidos_lateral nav a
+
+	{
+		color:#333333;
+		text-decoration: underline;
+		font-size: 0.8em;
+		display: block;
+	}
+
+	.cont_referidos_lateral nav a.btn
+
+	{
+		background: #BBE4E6;
+		color: #fff;
+		border-radius:20px;
+		padding: 5px;
+		font-size: 0.75em;
+		text-decoration: none;
+		margin: 0 0 5px 0;
+		border: 0;
+		text-shadow:none;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.cont_referidos_lateral nav a.btn:hover
+	{
+		color: #70C0C4;
+	}
+
+	/* REFERIDOS EN EL LATERAL */
+
+	/* CONTENEDOR CAPACITACIÓN  */
+
+	.ecommerce_capacitacion
+
+	{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.ecommerce_capacitacion li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 48%;
+		margin: 0 5px 10px 5px ;
+	}
+
+	.ecommerce_capacitacion_descargar
+
+	{
+		padding:0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.ecommerce_capacitacion_descargar li
+
+	{
+		display: inline-block;
+		*display: inline-block;
+		width: 100%;
+		margin: 0 0 10px 0;
+		padding: 10px;
+		text-align: left;
+		position: relative;
+		background: #fafafa;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_capacitacion_descargar li h2
+
+	{
+		color: #333333;
+		text-transform: none;
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	.ecommerce_capacitacion_descargar li img
+
+	{
+		float: left;
+		margin: 0 10px 0 0;
+	}
+
+	.ecommerce_capacitacion_descargar li a
+
+	{
+		color:#CC0000;
+		text-decoration: underline;
+		position: absolute;
+		right: 10px;
+		top: 18px;
+		font-size: 0.8em;
+	}
+
+	/* CONTENEDOR CAPACITACIÓN  */
+
+	/* TABLA DE PRODUCTOS */
+
+	.ecommerce_productos_distribuidor
+
+	{
+		margin: 10px 0 0 0;
+	}
+
+	.ecommerce_productos_distribuidor thead tr
+
+	{
+		background: #F4F4F4;
+	}
+
+	.ecommerce_productos_distribuidor thead tr td
+
+	{
+		text-align: center;
+		text-transform: uppercase;
+		color: #333;
+		font-size: 0.8em;
+		padding: 5px;
+		font-weight: 700;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr
+
+	{
+		background: #fff;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td
+
+	{
+		text-align: center;
+		padding: 10px;
+		color: #333;
+		border-bottom: 2px  solid #D6D6D6;
+		font-size: 0.8em;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td.verde
+
+	{
+		color:#00CC33;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td.azul
+
+	{
+		color:#0099CC;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td.rojo
+
+	{
+		color:#FF0000;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td a
+
+	{
+		color:#FF0000;
+		text-decoration: underline;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td input
+
+	{
+		width: 42px;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td a.enlace
+
+	{
+		color:#000;
+		text-decoration: underline;
+	}
+
+	.ecommerce_productos_distribuidor tbody tr td.img_producto
+
+	{
+		max-width: 20px;
+	}
+
+	/**/
+
+	.aling_derecha
+
+	{
+		text-align: right;
+	}
+
+	.total_distribuidor
+
+	{
+		text-align: right;
+		margin: 10px 0;
+		font-size: 0.9em;
+		color: #444;
+		display: inline-block;
+		*display: inline-block;
+	}
+
+	.total_distribuidor td
+
+	{
+		padding:2px  5px;
+		vertical-align: middle;
+		box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+
+	.total_distribuidor .p_total
+
+	{
+		color:#CC0000;
+	}
+
+/* ----------------------------------------- ZONA DE DISTRIBUIDORES ----------------------------------------- */

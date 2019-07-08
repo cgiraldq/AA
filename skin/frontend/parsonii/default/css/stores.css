@@ -1,0 +1,128 @@
+.stores-locations-main{width:100%;float:left;height:auto;}
+.no-store{
+float: left;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+width: 100%;
+}
+#sidebar{
+  float:left;
+  margin:10px 0;
+  width: 260px;
+  overflow:scroll;
+  max-height:300px;
+  font-family: "Gotham-Light";
+  font-size: 13px;
+}
+.sidebar-title 
+{float: left;font-size: 17px;font-weight: bold;padding-top: 7px;text-transform: uppercase;color: #DACBA2;}
+#left-sidebar-map{float:left;margin:0px 10px 0px 0px;width: 270px;}
+.main_div_map{	width:100%;	float:left;	height:auto;}
+
+#left-sidebar-map .drop-down
+{float: left;width: 260px;}
+#left-sidebar-map .drop-down .top
+{
+float: left;
+width: 200px;
+height: 6px;
+}
+#left-sidebar-map .drop-down .content
+{float: left;width: 260px;padding-bottom: 4px;padding-top: 5px;padding-left: 5px;}
+
+#left-sidebar-map .drop-down .bottom
+{
+float: left;
+width: 200px;
+height: 6px;
+}
+#left-sidebar-map .drop-down .content .title 
+{
+float: left;
+width: 100%;
+font-weight:bold;
+}
+#left-sidebar-map .drop-down .content .main-content {
+float: left;
+width: 100%;
+}
+#left-sidebar-map .drop-down .content .main-content select{
+float: left;
+width: 100%;
+height: 35px;
+}
+.map-lis
+{
+padding-left:10px;
+}
+.map-buttons{
+
+}
+.map-button-search{
+
+}
+.map-button-search .map-button{
+height: 50px;
+font-size:14px !important;
+}
+
+#map-div
+{float: left;width: 900px;margin-top: 0px;}
+@media only screen and (min-width: 1024px) and (max-width: 1260px){
+#map-div{
+width: calc(100% - 280px) !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+#map-div{
+width: 60% !important;
+}
+}
+@media only screen and (max-width: 776px){
+#map-div{
+width: 100% !important;
+}
+}
+
+#map-div .top
+{
+float: left;
+width: 537px;
+height: 8px;
+}
+#map-div .content
+{
+float: left;
+width: 100%;
+background: #ffffff;
+padding: 10px;
+}
+
+#map-div .bottom
+{
+float: left;
+width: 537px;
+height: 8px;
+}
+#map
+{
+width: 100%;
+height: 450px;
+margin: 0px;
+margin-left: 0px;
+}
+.localstorage .main-container{
+    position: relative;
+    max-width: 1260px;
+    margin: 0 auto;
+  margin-top: 91px;
+}
+
+select{
+  font-size: 13px;
+}
+.map-button-search button{
+  font-size: 19px !important;
+  padding: 6px 10px !important;
+}

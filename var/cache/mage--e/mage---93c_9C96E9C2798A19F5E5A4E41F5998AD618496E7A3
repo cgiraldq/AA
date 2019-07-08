@@ -1,0 +1,23 @@
+<div class="widget widget-static-block"><form id="contactForm" class="scaffold-form11" method="post"><input id="zona" type="hidden" value="Comercializa Internacional" name="zona" /> <input id="email_zona" type="hidden" value="exportaciones@adrianaarango.com" name="email_zona" />
+<div class="fieldset11">
+<h2 class="legend11">Informaci&oacute;n de contacto</h2>
+<p class="required11">* Por favor, complete esta informaci&oacute;n</p>
+<ul class="form-list11">
+<li class="fields11">
+<div class="field11"><label class="required11" for="name"></label>
+<div class="input-box11"><input id="nombre" class="input-text11 required-entry11" title="Nombre" type="text" placeholder="Nombre *" name="nombre" /></div>
+</div>
+<div class="field11"><label class="required11" for="email"></label>
+<div class="input-box11"><input id="email" class="input-text11 required-entry validate-email11" spellcheck="false" title="Correo electr&oacute;nico" type="email" placeholder="Correo Electr&oacute;nico *" name="email" /></div>
+</div>
+</li>
+<li><label for="telephone"></label>
+<div class="input-box11"><input id="telefono" class="input-text11" title="Tel&eacute;fono" type="tel" placeholder="Telefono" name="telefono" /></div>
+</li>
+<li class="wide11"><label class="required11" for="comment"></label>
+<div class="input-box11"><textarea id="mensaje" class="required-entry11 input-text11" title="Comentario" name="mensaje" placeholder="Comentarios *" rows="3" cols="5"></textarea></div>
+</li>
+</ul>
+</div>
+<div class="buttons-set11"><input id="enviar" class="button11" type="buttom" value="Enviar" /> <!--button id="enviar" class="button11" title="Enviar" type="buttom"><span><span>Enviar</span></span--></div>
+</form></div>

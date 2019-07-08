@@ -1,0 +1,8 @@
+a:5:{i:0;s:16:"Invalid form key";i:1;s:956:"#0 /var/www/clients/client36/web48/web/app/code/core/Mage/Checkout/controllers/CartController.php(609): Mage::throwException('Invalid form ke...')
+#1 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Checkout_CartController->ajaxDeleteAction()
+#2 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('ajaxDelete')
+#3 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#4 /var/www/clients/client36/web48/web/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#5 /var/www/clients/client36/web48/web/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 /var/www/clients/client36/web48/web/index.php(83): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:147:"/store/checkout/cart/ajaxDelete/id/70907/uenc/aHR0cHM6Ly93d3cuYWRyaWFuYWFyYW5nby5jb20vc3RvcmUvbnVldm8tZXVwaG9yaWEuaHRtbD9saW1pdD0yNSZtb2RlPWdyaWQ,/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:5:"store";}

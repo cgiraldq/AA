@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule (.*) http://www.adrianaarango.com/sitio_construccion/ [R=301,L]

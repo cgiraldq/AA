@@ -1,0 +1,31 @@
+<div class="block block-layered-nav block-layered-nav--no-filters">
+    <!--div class="block-title">
+        <strong><span></span></strong>
+    </div-->
+    <div class="block-content toggle-content open">
+        <!--p class="block-subtitle block-subtitle--filter"></p-->
+        <dl id="narrow-by-list2">
+            <dt>Categoría</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="https://www.adrianaarango.com/store/sale/deportivos/bienestar.html?___SID=U">
+                            Bienestar                            <span class="count">(0)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/sale/deportivos/mix.html?___SID=U">
+                            Mix                            <span class="count">(0)</span>
+                        </a>
+                    </li>
+                                                                            <li>
+                        <a href="https://www.adrianaarango.com/store/sale/deportivos/alto-rendimiento.html?___SID=U">
+                            Alto Rendimiento                            <span class="count">(0)</span>
+                        </a>
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>
