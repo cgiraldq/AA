@@ -53,6 +53,7 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
             <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
         </a>
+       
 <!--<div id="header-nav" class="skip-content">
       <?php echo $this->getChildHtml('topMenu') ?>
     </div>-->
@@ -95,11 +96,11 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
             </a>
           </div>
 		  
-          <?php /*<div class="welcome-block ralla">
+        <?php/* <div class="welcome-block ralla">
                   <a id="mapin" href="#" class="skip-link skip-account">
                       <span class="icon pin"></span>
                   </a>
-                </div> */ ?>
+                </div>*/ ?>
 
           <div class="welcome-block ralla">
             <div class="header-minicart">
@@ -112,10 +113,11 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
           </div>
 
           <div class="welcome-block">
-            <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>" data-target-element="#header-account" class="skip-link skip-account">
+          <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>" data-target-element="#header-account" class="skip-link skip-account">
               <span class="icon"></span>
             </a>
           </div>
+     
 
         </div>
 
@@ -162,6 +164,22 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     <!-- Navigation -->
 
     <div id="header-nav" class="skip-content">
+    <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>" data-target-element="#header-account" class="skip-link skip-account" style="
+    text-decoration: none;
+    position: relative;
+    display: block;
+    color: #CDB77C;
+    line-height: 30px;
+    font-family: Gotham-Light;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 15px;
+    float: left;
+    margin: 4px -20% 0 17%;
+    display: none;
+">
+             MI CUENTA
+            </a>
       <?php echo $this->getChildHtml('topMenu') ?>
     </div>
 
