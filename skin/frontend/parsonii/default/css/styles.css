@@ -3579,10 +3579,11 @@ body {
 }
 .logo img {
   max-width: 100%;
+  
 }
 .logo .small {
   display: block;
-  margin: 0px 25px;
+
 }
 .logo .large {
   display: none;
@@ -3661,6 +3662,10 @@ a.skip-link {
 
   .skip-link:last-child {
     border-right: 0;
+  }
+
+  .logo img{
+    margin: 0 25px;
   }
 }
 @media only screen and (min-width: 500px) {
@@ -13751,7 +13756,7 @@ a.skip-link.skip-cart {
     min-height: 34px; 
     text-align: center;
     /* padding: 10px; */
-    padding-top: 7px !important;
+    padding-top: 8px !important;
     padding-left: 15px;
 }
 
@@ -13942,7 +13947,7 @@ li.item.odd {
 
 .block-1 {
   /*se mueve el menu hamburguesa para la izquierda al lado del logo*/
-    /*margin-right: 33px;*/
+    margin-right: auto;
 }
 
 a.skip-link.skip-nav > span {
@@ -15163,6 +15168,8 @@ figure.imageeffectck img {
   .imagen-logo-footer {
 	  display: none;
   }
+
+
 }
 
 @media only screen and (max-width: 320px) {
