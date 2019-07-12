@@ -11,7 +11,7 @@ jQuery(document).ready(function(){
 		p2=parseNumber(p2.substr(1));
 		var discount=p1-p2;
 	
-		
+		jQuery(specialPrice).after('<br><p class="saving"><span>Ahorro:</span><span>  $'+discount.toLocaleString()+'</span></p>');
 	}
 
 
