@@ -4108,7 +4108,6 @@ a.skip-link {
     background: url(../images/menu-hamburguesa.png);
     background-repeat: no-repeat; 
     background-size: cover;
-    display: none;
 }
 .skip-account .lupa {
     /* background-position: 4px -44px; */
@@ -12460,7 +12459,7 @@ h2.product-name {
 }
 
 .links > ul > li > a {
-    text-align: right !important;
+    text-align: left !important;
     display: inline-block !important;
     width: 100%;
     margin: 0px;
@@ -13762,7 +13761,7 @@ a.skip-link.skip-cart {
 }
 
 .col1-layout {
-    margin-top: 0px;
+    margin-top: -75px;
 }
 
 header#header {
@@ -15245,4 +15244,73 @@ margin: 0px auto;
 
 .label_landing{
 	color: #000 !important;
+}
+.category-home{
+width: 16.5%; 
+display: inline-block; 
+float: none; 
+overflow: hidden; 
+margin: 0 -7px -29px -7px;
+}
+
+.new_desktop{
+display: block;
+}
+
+.new_mobile{
+  display: none !important;
+}
+
+.micuenta2{
+ 
+  text-decoration: none;
+  position: relative;
+  display: block;
+  color: #CDB77C;
+  line-height: 30px;
+  font-family: Gotham-Light;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 13px;
+  float: left;
+  margin: 25px -20% 0 17%;
+  display: block;
+
+
+}
+
+.micuenta1{
+  display: none !important;
+}
+
+form#review-form {
+  display: inline-block;
+ 
+}
+
+@media only screen and (max-width: 768px){
+  .category-home {
+    /* width: calc(100% - 60px); */
+    width: 100%;
+    display: inline-block;
+    float: none !important;
+    overflow: hidden;
+}
+
+.new_desktop{
+  display: none !important;
+  }
+
+  .new_mobile{
+    display: block !important;
+  }
+   .micuenta2{
+     display: none !important;
+   }
+
+   .micuenta1{
+    display: block !important;
+  }
+  
+
 }
