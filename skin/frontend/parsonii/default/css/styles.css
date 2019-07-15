@@ -5867,6 +5867,9 @@ display: inline-block;
 }
 .product-collateral {
   clear: both;
+    width: 50%;
+    display: inline-block;
+
 }
 
 .collateral-tabs dd h2 {
@@ -15294,6 +15297,7 @@ form#review-form {
     color: #D84D3C;
 }
 
+
 @media only screen and (max-width: 768px){
   .category-home {
     /* width: calc(100% - 60px); */
@@ -15318,5 +15322,11 @@ form#review-form {
     display: block !important;
   }
   
+  .product-collateral {
+ 
+    width: 100%;
+    display: block;
+
+}
 
 }

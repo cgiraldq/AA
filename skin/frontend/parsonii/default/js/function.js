@@ -1,30 +1,7 @@
 jQuery(document).ready(function(){
 
-	var p1=document.querySelector(".price-box .old-price .price").textContent;
-	var specialPrice=document.querySelector(".price-box .special-price");
-	var p2=specialPrice.querySelector(".price").textContent;
-	//console.log(specialPrice);
-	if(p1!=undefined && p2!=undefined){
-		p1=p1.trim();
-		p1=parseNumber(p1.substr(1));
-		p2=p2.trim();
-		p2=parseNumber(p2.substr(1));
-		var discount=p1-p2;
-	
-		jQuery(specialPrice).after('<br><p class="saving"><span>Ahorro:</span><span>  $'+discount.toLocaleString()+'</span></p>');
-	}
 
 
-function discount(p1, p2) {
- p1=p1.trim();
- p1=parseFloat(p1.substr(1));
-
- p1=p1.trim();
- p1=parseFloat(p1.substr(1));
- console.log(p1+"-"+p2);
- var discount=p1-p2;
- return discount;
-}
 
 
 //quita clase cms-home que pone el menu sobre elbaner debajo del header

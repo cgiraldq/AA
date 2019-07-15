@@ -711,7 +711,7 @@ $j(document).ready(function () {
 
         // Check if stub is open
         var isSkipContentOpen = elem.hasClass('skip-active') ? 1 : 0;
-
+console.log(isSkipContentOpen);
         // Hide all stubs
         skipLinks.removeClass('skip-active');
         skipContents.removeClass('skip-active');
