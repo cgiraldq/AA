@@ -4983,7 +4983,7 @@ p.product-name a:hover {
 .products-list > li {
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #ededed;
+  /*border-bottom: 1px solid #ededed;*/
 }
 .products-list > li:after {
   content: '';
@@ -15258,6 +15258,10 @@ overflow: hidden;
 margin: 0 -7px -15px -7px;
 }
 
+.logo{
+width: 8%;
+margin-bottom: 30px;
+}
 .new_desktop{
 display: block;
 }
