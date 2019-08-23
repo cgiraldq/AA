@@ -3873,9 +3873,12 @@ a.skip-link {
   }
   .nav-primary li.level0 li {
     padding: 0 0 0 25px;
+    text-align: left;
+    width: 100%;
   }
   .nav-primary li.level1 a {
     padding: 0 15px 0 25px;
+    color: #CDB77C;
   }
   .nav-primary li.parent > a:after {
     content: '';
@@ -4192,7 +4195,7 @@ a.skip-link {
     position: absolute;
     z-index: 5000;
     top: 75px;
-    right: 0px;
+    left: 15%;
     width: 299px;
     text-align: right;
     color: #DACBA2;
@@ -15258,7 +15261,7 @@ overflow: hidden;
 margin: 0 -7px -15px -7px;
 }
 
-.logo{
+.logos{
 width: 8%;
 margin-bottom: 30px;
 }
@@ -15335,4 +15338,13 @@ form#review-form {
 
 }
 
+}
+
+
+
+
+/*estilos slide con video powr*/
+
+#appView .powrMark{
+  display: none !important;
 }

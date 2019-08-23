@@ -1,0 +1,34 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active',
+     'translation' => 'Activo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum number of active chats user can have at a time, 0 - unlimited',
+     'translation' => 'Número máximo de chat que un usuario puede tener al mismo tiempo, 0 - ilimitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatically assign chat to another operator if operator did not accepted chat in seconds, 0 - disabled',
+     'translation' => 'Asignar automáticamente el chat a otro operador si el operador no aceptó el chat en segundos, 0 - deshabilitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

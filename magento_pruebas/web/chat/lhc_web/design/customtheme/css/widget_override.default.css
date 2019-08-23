@@ -1,0 +1,27 @@
+/**
+* Rename this file to widget_override.css to take effect
+* Write your widget styles here
+**/
+
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("fuentes/Gotham-Bold.woff");
+}
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("fuentes/Gotham-Book.woff");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("fuentes/Gotham-Light.woff");
+}
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("fuentes/Gotham-Medium.woff");
+}
+
+
+body {
+	font-family: "Gotham-Medium"; 
+}

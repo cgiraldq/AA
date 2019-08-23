@@ -107,9 +107,9 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
               <?php echo $this->getChildHtml('minicart_head'); ?>
             </div>
 
-            <div id="header-account" class="skip-content">
+            <!--<div id="header-account" class="skip-content">
               <?php echo $this->getChildHtml('topLinks') ?>
-            </div>
+            </div> menu de mi cuenta -->
           </div>
 
           <div class="welcome-block micuenta1">
@@ -129,6 +129,9 @@ $actual = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
               // See app.js for details ?>
     <div class="store-language-container"></div>
+     <div id="header-account" class="skip-content">
+              <?php echo $this->getChildHtml('topLinks') ?>
+            </div>
 
     <!-- Skip Links -->
 

@@ -1,0 +1,64 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Question',
+     'translation' => 'Pregunta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Question intro',
+     'translation' => 'Introducción de la pregunta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show questions for all the URLs containing this string E.g /shop/basket',
+     'translation' => 'Mostrar preguntas de todas las URL que contengan esta cadena Ej. /tienda/cesta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Priority, if multiple questions match a location, the question with the higher priority will be shown',
+     'translation' => 'Prioridad, si varias preguntas coinciden con una ubicación, se mostrará la pregunta con la prioridad más alta',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Revote time (hours), before can revote. Default 0 - never. Higher value allow revote after seconds expire since last vote',
+     'translation' => 'Tiempo para volver a votar (horas), Predefinido 0, un valor mayor permite votar nuevamente después de algunos segundos de haber expirado el último voto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Active',
+     'translation' => 'Activo',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

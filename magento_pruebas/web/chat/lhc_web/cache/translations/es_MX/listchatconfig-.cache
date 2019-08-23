@@ -1,0 +1,804 @@
+<?php
+return array (
+  0 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  1 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  2 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  3 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'List online operators.',
+     'translation' => 'Listar operadores en línea.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  4 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  5 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  6 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  7 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  8 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  9 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  10 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Product module is enabled',
+     'translation' => 'Módulo del producto activado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  11 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  12 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  13 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  14 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  15 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many days voting widget should not be expanded after last show',
+     'translation' => 'Por cuantos días el widget de votación no será expandido después de mostrarlo la última vez',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  16 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use secure cookie, check this if you want to force SSL all the time',
+     'translation' => 'Use cookies seguras, seleccione esto si desea forzar el uso permanente de SSL',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  17 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Which ip should be allowed to update DB by executing http request, separate by comma?',
+     'translation' => '¿A que IP debe permitirse actualizar la base de datos ejecutando la solicitud http? Separarlas por comas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  18 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Enable online site visitors tracking',
+     'translation' => 'Habilitar el rastreo de visitantes conectados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  19 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Should mouse movement be tracked as activity measure, if not checked only basic events would be tracked',
+     'translation' => 'El movimiento del mouse debe ser restreado, de lo contrario solamente eventos básicos de rastrearán',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  20 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track is user still on site, chat status checks also has to be enabled',
+     'translation' => 'Rastrear si el usuario aún se encuentra en el sitio, el estado del chat también debe estar activado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  21 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track online visitors even if there is no online operators',
+     'translation' => 'Rastrear visitantes aunque no haya operadores en línea',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  22 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track users footprint. For this also online visitors tracking should be enabled',
+     'translation' => 'Rastrear huellas de los usuarios. Rastreo de de visitantes deberá estar habilitado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  23 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Set your domain to enable user tracking across different domain subdomains.',
+     'translation' => 'Establezca su dominio para activar el rastreo de usuarios a través de diferentes subdominios.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  24 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Track users activity on site?',
+     'translation' => '¿Seguimiento de actividad de los usuarios en el sitio?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  25 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many days keep records of online users.',
+     'translation' => 'Cuantos días deberán mantenerse los datos de los visitantes.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  26 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Suggest user to leave a message then user chooses offline department',
+     'translation' => 'Sugerir al usuario dejar un mensaje, luego el usuario escoge un departamento que se encuentre fuera de línea.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  27 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Play sound on invitation to chat.',
+     'translation' => 'Reproducir sonido al invitar al chat.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  28 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show users option to switch language at widget',
+     'translation' => 'Mostrar opción para cambiar de lenguaje en la ventana de chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  29 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Between what languages user should be able to switch',
+     'translation' => 'Entre cuáles lenguajes el usuario puede cambiar',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  30 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Host where NodeJs is running',
+     'translation' => 'Host donde NODEJS se esta ejecutando',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  31 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Location of SocketIO JS library',
+     'translation' => 'Ubicación de la librería SocketIO JS',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  32 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Connect to NodeJs in https mode',
+     'translation' => 'Conectar a NodeJS en modo https',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  33 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'socket.io path, optional',
+     'translation' => 'ruta hacia socket.io, opcional',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  34 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'NodeJS support enabled',
+     'translation' => 'Soporte para NodeJS activado',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  35 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Do not ask permission for users to see their screen',
+     'translation' => 'No pedir permiso a los usuarios para ver su pantalla',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  36 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Use session captcha. LHC have to be installed on the same domain or subdomain.',
+     'translation' => 'Usar captcha de sesión. LHC deberá estar instalado en el mismo dominio o subdominio.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  37 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Should cronjob run unanswered chats workflow and execute unaswered chats callback, 0 - no, any other number bigger than 0 is a minits how long chat have to be not accepted before executing callback.',
+     'translation' => 'Debe el cronjob ejecutar el flujo de trabajo para los chats no contestados y ejecutar el callback, cualquier número mayor que 0 es en minutos cuanto tiempo el chat deberá haberse encontrado sin aceptar para ejecutar la llamada.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  38 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Should cronjob run departments transfer workflow, even if user leaves a chat',
+     'translation' => 'Debe el cronjob ejecutar el flujo de trabajo de transferencia en los departamentos, incluso si el usuario deja el chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  39 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Reopen chat functionality enabled',
+     'translation' => 'Funcionalidad para reabrir un chat habilitada',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  40 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Reopen closed chat as new? Otherwise it will be reopened as active.',
+     'translation' => '¿Reabrir el chat cerrado como nuevo? De otra forma será reabierto como activo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  41 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Should invitation logic be executed if there is no online operators',
+     'translation' => 'Debe ejecutarse la lógica de invitaciones si no hay operadores en línea.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  42 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Pro active chats invitations limitation based on pending chats, (-1) do not limit, (0,1,n+1) number of pending chats can be for invitation to be shown.',
+     'translation' => 'Limitación de invitaciones de chat pro-activo basada en chat pendientes, (-1) no limitar, (0,1,n+1) número de chats pendientes para que pueda mostrarse la invitación.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  43 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Is pro active chat invitation active. Online users tracking also has to be enabled',
+     'translation' => 'Se encuentra activa la invitación de chat pro-activa. El rastreo de visitantes también debe estar activo.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  44 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'On chat close exit chat',
+     'translation' => 'Cerrar el chat y salir',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  45 => 
+  ezcTranslationData::__set_state(array(
+     'original' => false,
+     'translation' => false,
+     'comment' => false,
+     'status' => 1,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  46 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Need help tooltip timeout, after how many hours show again tooltip?',
+     'translation' => 'Límite de tiempo del mensaje de necesita ayuda, ¿después de cuantas horas deberá mostrarse de nuevo?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  47 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show need help tooltip?',
+     'translation' => '¿Mostrar el mensaje de necesita ayuda?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  48 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Minimum phone number length',
+     'translation' => 'Cantidad mínima de dígitos del número de teléfono',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  49 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Messages box height',
+     'translation' => 'Altura de la caja de mensajes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  50 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Proactive message timeout in hours. After how many hours proactive chat mesasge should be shown again.',
+     'translation' => 'Límite de tiempo en horas del mensaje pro-activo. Después de cuantas horas el mensaje de chat proactivo deberá mostrarse nuevamente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  51 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Maximum message length in characters',
+     'translation' => 'Tamaño máximo de carácteres del mensaje',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  52 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'List online operators, 0 - no, 1 - yes.',
+     'translation' => 'Lista de operadores en línea, 0 - no,  1 - sí.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  53 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Ignore users online statuses and use departments online hours',
+     'translation' => 'Ignorar el estado en línea de los usuario y utilizar los horarios de los departamentos',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  54 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Which ip should be ignored in online users list, separate by comma',
+     'translation' => 'Cuál ip debe ignorarse en la lista de usuarios en línea, separar por comas',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  55 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide right column in frontpage',
+     'translation' => 'Esconde la columna derecha en la página inicial',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  56 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide disabled department widget',
+     'translation' => 'Ocultar el widget de departamentos deshabilitados',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  57 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Hide close button in dropdown',
+     'translation' => 'Ocultar el botón de cerrar en el menú desplegable',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  58 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Home page tabs order',
+     'translation' => 'Orden de las pestañas en la página de inicio',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  59 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Is visitor e-mail required for FAQ',
+     'translation' => 'El e-mail del visitante es requerido para las Preguntas Frecuentes',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  60 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Chats export secret hash',
+     'translation' => 'Exportar el hash secreto de los chats',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  61 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Please enter explicit http mode. Either http: or https:, do not forget : at the end.',
+     'translation' => 'Por favor introduzca el modo http explícito, ya sea http: o https: no olvide los : al final.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  62 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable chat transcript send',
+     'translation' => 'Deshabilitar el envío de la transcripción del chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  63 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable chat print',
+     'translation' => 'Deshabilitar la impresión del chat',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  64 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable option in widget to open new window. Restore icon will be hidden',
+     'translation' => 'Deshabilitar la opción en el widget de abrir en una ventana nueva. El icono de restauración estará oculto',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  65 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable JS execution in Co-Browsing operator window',
+     'translation' => 'Deshabilitar la ejecución JS en la ventana compartida del operador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  66 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Disable HMTL5 storage, check it if your site is switching between http and https',
+     'translation' => 'Desactivar el almacenamiento HTML5, marcar solo si el sitio web se encuentra cambiando entre http y https',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  67 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Home page dashboard widgets order',
+     'translation' => 'Página de inicio del widget de dashboard',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  68 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Your site URL address',
+     'translation' => 'URL de su sitio',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  69 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Your company name - visible in bottom left corner',
+     'translation' => 'Nombre de su compañía - visible en la esquina inferior izquierda',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  70 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Interval between chat status checks in seconds, 0 disabled.',
+     'translation' => 'Intervalo entre la revisión del estado del chat en segundos, 0 deshabilitado.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  71 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Show BB Code button',
+     'translation' => 'Mostrar el botón de código BB',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  72 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Which ip should not be allowed to chat',
+     'translation' => 'Qué IP no debería estar autorizada para chatear',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  73 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatic chats purging. 0 - disabled, n > 0 time in minutes before chat is automatically deleted',
+     'translation' => 'Purgado automático de chats. 0 - deshabilitado, n > 0 tiempo en minutos antes de que el chat se borre automáticamente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  74 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatically reopen chat on widget open',
+     'translation' => 'Abrir el chat automáticamente al abrir el widget',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  75 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Automatic chats closing. 0 - disabled, n > 0 time in minutes before chat is automatically closed',
+     'translation' => 'Cerrado automático de chat. 0 - deshabilitado, n > 0 tiempo en minutos antes de que el chat se cierre automáticamente',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  76 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Support application name, visible in browser title.',
+     'translation' => 'Nombre de la aplicación de soporte, visible en el título del navegador.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  77 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Allow user to reopen closed chats?',
+     'translation' => '¿Permitir al usuario re-abrir chat cerrados?',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  78 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'Change to your site Terms of Service',
+     'translation' => 'Cambiar a los Términos de Servicio de su sitio',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+  79 => 
+  ezcTranslationData::__set_state(array(
+     'original' => 'How many seconds chat accept link is valid. Set 0 to force login all the time manually.',
+     'translation' => 'Cuantos segundos el enlace de aceptación del chat será válido. Ponga en 0 para forzar de forma manual el login permanentemente.',
+     'comment' => false,
+     'status' => 0,
+     'filename' => false,
+     'line' => false,
+     'column' => NULL,
+  )),
+);
+?>

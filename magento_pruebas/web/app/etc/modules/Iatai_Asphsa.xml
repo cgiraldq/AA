@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Modulo de integracion de sistema Asph y Secure Acceptance
+ *
+ * @category   Iatai
+ * @package    Iatai_Asphsa
+ * @author     Harold Villota
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+    <modules>
+        <Iatai_Asphsa>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Iatai_Asphsa>
+    </modules>
+</config> 

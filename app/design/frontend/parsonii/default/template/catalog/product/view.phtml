@@ -37,11 +37,13 @@
     var optionsPrice = new Product.OptionsPrice(<?php echo $this->getJsonConfig() ?>);
     jQuery(document).ready(function(){
     //Ahorro del precio y precio especial
-	var p1=document.querySelector(".price-box .old-price .price").textContent;
-	var specialPrice=document.querySelector(".price-box .special-price");
+
+    //console.log(specialPrice);
+    var specialPrice=document.querySelector(".price-box .special-price");
+	if(document.querySelector(".price-box .old-price .price") && specialPrice.querySelector(".price")){
+        var p1=document.querySelector(".price-box .old-price .price").textContent;
+
 	var p2=specialPrice.querySelector(".price").textContent;
-	//console.log(specialPrice);
-	if(p1!=undefined && p2!=undefined){
 		p1=p1.trim();
 		p1=parseNumber(p1.substr(1));
 		p2=p2.trim();
